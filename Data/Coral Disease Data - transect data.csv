@@ -1,0 +1,1050 @@
+﻿Effect_ID,Paper_ID,Transect_Type,Transect_Num,Transect_Length_m,Transect_Width_m,Plot_area_m^2,SourceTransect,Notes
+EI0001,CD001,Belt,1,62.832,2,125.664,Materials and Methods p220,
+EI0002,CD001,Belt,1,62.832,2,125.664,Materials and Methods p220,
+EI0003,CD001,Belt,1,62.832,2,125.664,Materials and Methods p220,
+EI0004,CD002,Belt,9,10,1,10,Methods 2015 two-year post-grounding surveys,USSG Ground Zero
+EI0005,CD002,Belt,7,10,1,10,Methods 2015 two-year post-grounding surveys,"USSG Impact Border east: n=4, west: n=3"
+EI0006,CD002,Belt,3,20,1,20,Methods 2015 two-year post-grounding surveys,USSG Control (3-S)
+EI0007,CD002,Belt,3,10,1,10,Methods 2015 two-year post-grounding surveys,MPY Ground Zero
+EI0008,CD002,Belt,9,10,1,10,Methods 2015 two-year post-grounding surveys,"MPY Impact Border lagoonal: n=3, seaweed near: n=3, seaweed far: n=3"
+EI0009,CD002,Belt,2,20,1,20,Methods 2015 two-year post-grounding surveys,MPY Control (1-N)
+EI0010,CD003,Belt,3,15,2,30,Methods 2.1 p58,
+EI0011,CD003,Belt,3,15,2,30,Methods 2.1 p58,
+EI0012,CD004,Belt,3,15,1,15,Methods in situ surveys of belt transects,one site had 10m transects
+EI0013,CD006,Belt,2,25,1,25,Materials and Methods Disease Surveys p456,
+EI0014,CD006,Belt,2,25,1,25,Materials and Methods Disease Surveys p456,
+EI0015,CD008,Line,10,10,,,"Methods p79, Table 2",
+EI0017,CD007,Line,129,10,,,"Results p4, Methods p3",
+EI0018,CD007,Line,129,10,,,"Results p4, Methods p3",
+EI0019,CD007,Line,129,10,,,"Results p4, Methods p3",
+EI0020,CD007,Line,129,10,,,"Results p4, Methods p3",
+EI0021,CD007,Line,129,10,,,"Results p4, Methods p3",
+EI0022,CD007,Line,129,10,,,"Results p4, Methods p3",
+EI0023,CD007,Line,129,10,,,"Results p4, Methods p3",
+EI0024,CD007,Line,132,10,,,"Results p3, Methods p3",
+EI0025,CD007,Line,132,10,,,"Results p3, Methods p3",
+EI0026,CD007,Line,132,10,,,"Results p3, Methods p3",
+EI0027,CD007,Line,132,10,,,"Results p3, Methods p3",
+EI0028,CD007,Line,132,10,,,"Results p3, Methods p3",
+EI0029,CD007,Line,132,10,,,"Results p3, Methods p3",
+EI0030,CD010,Circle,15,,,10,"Materials and Methods Survey methods p370-372, plots are circular",
+EI0031,CD010,Circle,15,,,10,"Materials and Methods Survey methods p370-372, plots are circular",
+EI0032,CD010,Circle,15,,,10,"Materials and Methods Survey methods p370-372, plots are circular",
+EI0033,CD010,Circle,15,,,10,"Materials and Methods Survey methods p370-372, plots are circular",
+EI0034,CD010,Circle,15,,,10,"Materials and Methods Survey methods p370-372, plots are circular",
+EI0035,CD010,Circle,15,,,10,"Materials and Methods Survey methods p370-372, plots are circular",
+EI0037,CD012,Belt,8,100,0.5,50,Materials and methods Disease surveys,
+EI0038,CD012,Belt,8,100,0.5,50,Materials and methods Disease surveys,
+EI0039,CD012,Belt,8,100,0.5,50,Materials and methods Disease surveys,
+EI0040,CD013,Belt,3-6,20,1,20,Methods,
+EI0041,CD013,Belt,3-6,20,1,20,Methods,
+EI0042,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0043,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0044,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0045,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0046,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0047,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0048,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0049,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0050,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0051,CD014,Belt,3,25,1,25,Materials and Methods p97,
+EI0052,CD017,Belt,2,25,6,150,"Methods 2.2 Disease prevalence and incidence p2, ran out of time, so estimated prevalence based on 25 x 2m transect",
+EI0053,CD017,Belt,2,25,6,150,"Methods 2.2 Disease prevalence and incidence p2, ran out of time, so estimated prevalence based on 25 x 2m transect",
+EI0054,CD017,Belt,2,25,6,150,"Methods 2.2 Disease prevalence and incidence p2, ran out of time, so estimated prevalence based on 25 x 2m transect",
+EI0055,CD017,Belt,2,25,6,150,"Methods 2.2 Disease prevalence and incidence p2, ran out of time, so estimated prevalence based on 25 x 2m transect",
+EI0056,CD018,Belt,2,25,1,25,Materials and Methods Disease surveys p830,
+EI0057,CD018,Belt,2,25,1,25,Materials and Methods Disease surveys p830,
+EI0058,CD018,Belt,2,25,1,25,Materials and Methods Disease surveys p830,
+EI0059,CD019,Belt,2,25,6,150,"Materials and Methods Distribution, prevalence, and seasonality of MWS p2",
+EI0060,CD019,Belt,2,25,6,150,"Materials and Methods Distribution, prevalence, and seasonality of MWS p2",
+EI0061,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0062,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0063,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0064,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0065,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0066,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0067,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0068,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0069,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0070,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0071,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0072,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0073,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0074,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0075,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0076,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0077,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0078,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0079,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0080,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0081,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0082,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0083,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0084,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0085,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0086,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0087,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0088,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0089,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0090,CD022,Circle,2,20,,314,Materials and Methods p68,"length = diameter, more a ""site"" than a transect"
+EI0091,CD026,Belt,7,15,1,15,"Methods Disease surveys p1037, only 43 transects conducted this year",
+EI0092,CD026,Belt,7,15,1,15,"Methods Disease surveys p1037, only 43 transects conducted this year",
+EI0093,CD026,Belt,7,15,1,15,"Methods Disease surveys p1037, only 43 transects conducted this year",
+EI0094,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0095,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0096,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0097,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0098,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0099,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0100,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0101,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0102,CD026,Belt,8,15,1,15,Methods Disease surveys p1037,
+EI0103,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0104,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0105,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0106,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0107,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0108,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0109,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0110,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0109,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0110,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0109,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0110,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0109,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0110,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0109,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0110,CD027,Belt,5,20,2,40,Methods Study sites and biannual disease surveys p817,
+EI0111,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0112,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0113,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0114,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0115,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0116,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0117,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0118,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0119,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0120,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0121,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0122,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0123,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0124,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0125,CD028,Belt,3,20,4,80,Materials and Methods Survey method p404,
+EI0126,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0127,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0128,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0129,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0130,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0131,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0132,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0133,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0134,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0135,CD029,Belt,9,20,4,80,Materials and methods Survey method p949-950,
+EI0136,CD029,Belt,6,20,4,80,Materials and methods Survey method p949-950,Blue Bowl has no reef flat transects
+EI0137,CD029,Belt,6,20,4,80,Materials and methods Survey method p949-950,Blue Bowl has no reef flat transects
+EI0138,CD030,Belt,15,15,2,30,"Methods Data collection, Table 1",
+EI0139,CD030,Belt,15,15,2,30,"Methods Data collection, Table 1",
+EI0140,CD031,Belt,3,15,2,30,Material and methods 2b Coral disease surveys and visual census of reef fishes,Transect number is per site
+EI0141,CD031,Belt,3,15,2,30,Material and methods 2b Coral disease surveys and visual census of reef fishes,Transect number is per site
+EI0142,CD031,Belt,3,15,2,30,Material and methods 2b Coral disease surveys and visual census of reef fishes,Transect number is per site
+EI0143,CD031,Belt,3,15,2,30,Material and methods 2b Coral disease surveys and visual census of reef fishes,Transect number is per site
+EI0144,CD032,Belt,3,15,2,30,Methods Coral health surveys p2257,Transect number is per site
+EI0145,CD032,Belt,3,15,2,30,Methods Coral health surveys p2257,Transect number is per site
+EI0146,CD033,Belt,24,15,2,30,Methods Study sites and data collection p1047,
+EI0147,CD033,Belt,21,15,2,30,Methods Study sites and data collection p1047,
+EI0148,CD035,Belt,3,20,2,40,Materials and Methods p43,Transect number is per site
+EI0149,CD036,Belt,24,20,2,40,Materials and Methods Quantifying coral disease and coral community structure p138,
+EI0150,CD036,Belt,24,20,2,40,Materials and Methods Quantifying coral disease and coral community structure p138,
+EI0151,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0152,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0153,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0154,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0155,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0156,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0157,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0158,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0159,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0160,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0161,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0162,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0163,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0164,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0165,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0166,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0167,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0168,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0169,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0170,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0171,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0172,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0173,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0174,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0175,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0176,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0177,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0178,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0179,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0180,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0181,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0182,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0183,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0184,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0185,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0186,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0187,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0188,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0189,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0190,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0191,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0192,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0193,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0194,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0195,CD037,Quadrat,10,4,4,16,Materials and Methods p2860,
+EI0196,CD038,Belt,6,10,1,10,"Materials and Methods Field data collection methods, Figure 3b",
+EI0197,CD038,Belt,3,10,1,10,"Materials and Methods Field data collection methods, Figure 3b",
+EI0198,CD038,Belt,3,10,1,10,"Materials and Methods Field data collection methods, Figure 3b",
+EI0199,CD038,Belt,3,10,1,10,"Materials and Methods Field data collection methods, Figure 3b",
+EI0200,CD038,Belt,7,10,1,10,"Materials and Methods Field data collection methods, Figure 3b",
+EI0201,CD039,Belt and Quadrat,60,1,1,1,Materials and methods 2d Coral disease surveys p3,Transect data is calculated based on quadrats (transect exists as a reference for where to place quadrats for collecting data); n for se is still 12 for number of transects (ignores that there are 5 quadrats per transect)
+EI0202,CD039,Belt and Quadrat,60,1,1,1,Materials and methods 2d Coral disease surveys p3,Transect data is calculated based on quadrats (transect exists as a reference for where to place quadrats for collecting data); n for se is still 12 for number of transects (ignores that there are 5 quadrats per transect)
+EI0203,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0204,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0205,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0206,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0207,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0208,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0209,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0210,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0211,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0212,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0213,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0214,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0215,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0216,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0217,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0218,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0219,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0220,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0221,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0222,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0223,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0224,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0225,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0226,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0227,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0228,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0229,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0230,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0231,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0232,CD040,Belt,3,20,2,40,Materials and methods Study site and sampling design p474,
+EI0233,CD041,Line,73,10,,,Methods p668,
+EI0234,CD041,Line,41,10,,,Methods p668,
+EI0235,CD041,Line,36,10,,,Methods p668,
+EI0236,CD041,Line,88,10,,,Methods p668,
+EI0237,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0238,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0239,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0240,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0241,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0242,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0243,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0244,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0245,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0246,CD042,Belt,3,50,2,100,Materials and Methods p40,
+EI0247,CD043,Circle,,,,113,Materials and Methods Prevalence of coral disease p39,
+EI0248,CD043,Circle,,,,113,Materials and Methods Prevalence of coral disease p39,
+EI0249,CD043,Circle,,,,113,Materials and Methods Prevalence of coral disease p39,
+EI0250,CD043,Circle,,,,113,Materials and Methods Prevalence of coral disease p39,
+EI0036,CD044,Line,12,20,,,p1407,
+EI0251,CD009,Belt,4,60,6,360,Materials and methods Sampling and study design p35,
+EI0252,CD011,Belt,4,10,1,10,p293,
+EI0253,CD011,Belt,4,10,1,10,p293,
+EI0254,CD011,Belt,4,10,1,10,p293,
+EI0255,CD011,Belt,4,10,1,10,p293,
+EI0256,CD015,Line,64,7,,,Materials and Methods,
+EI0257,CD015,Line,64,7,,,Materials and Methods,
+EI0258,CD015,Line,64,7,,,Materials and Methods,
+EI0259,CD015,Line,64,7,,,Materials and Methods,
+EI0260,CD015,Line,64,7,,,Materials and Methods,
+EI0261,CD015,Line,64,7,,,Materials and Methods,
+EI0262,CD015,Line,64,7,,,Materials and Methods,
+EI0263,CD015,Line,62,7,,,Materials and Methods,
+EI0264,CD015,Line,62,7,,,Materials and Methods,
+EI0265,CD015,Line,62,7,,,Materials and Methods,
+EI0266,CD015,Line,62,7,,,Materials and Methods,
+EI0267,CD015,Line,62,7,,,Materials and Methods,
+EI0268,CD015,Line,62,7,,,Materials and Methods,
+EI0269,CD015,Line,62,7,,,Materials and Methods,
+EI0270,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0271,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0272,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0273,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0274,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0275,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0276,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0277,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0278,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0279,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0280,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0281,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0282,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0283,CD045,Belt,30,20,2,40,Materials and Method Coral health assessments p1236,
+EI0284,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0285,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0286,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0287,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0288,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0289,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0290,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0291,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0292,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0293,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0294,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0295,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0296,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0297,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0298,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0299,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0300,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0301,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0302,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0303,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0304,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0305,CD020,Belt,1,25,6,150,Materials and Methods Black band disease surveys,
+EI0306,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0307,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0308,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0309,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0310,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0311,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0312,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0313,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0314,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0315,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0316,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0317,CD016,Belt,3,20,1,20,Materials and Methods Survey method p167,
+EI0318,CD046,Belt,3,30,5,150,Materials and Methods Data collection and construction of ortho-mosaics,
+EI0319,CD047,Belt,3,30,5,150,Materials and Methods Survey design p3,
+EI0320,CD047,Belt,3,30,5,150,Materials and Methods Survey design p3,
+EI0321,CD048,Belt,3,50,2,100,Materials and Methods Underwater survey p81,
+EI0322,CD048,Belt,3,50,2,100,Materials and Methods Underwater survey p81,
+EI0323,CD049,Belt,2,20,2,40,Materials and Methods Coral Disease,
+EI0324,CD049,Belt,2,20,2,40,Materials and Methods Coral Disease,
+EI0325,CD049,Belt,2,20,2,40,Materials and Methods Coral Disease,
+EI0326,CD049,Belt,2,20,2,40,Materials and Methods Coral Disease,
+EI0327,CD050,Belt,12,20,1,20,Materials and Methods Field data collection and statistical analysis p353,
+EI0328,CD051,Belt,24,25,2,50,Materials and Methods Disease surveys,
+EI0329,CD051,Belt,24,25,2,50,Materials and Methods Disease surveys,
+EI0330,CD051,Belt,24,25,2,50,Materials and Methods Disease surveys,
+EI0331,CD052,Belt,3,15,2,30,Methods p151,
+EI0332,CD052,Belt,2,15,2,30,Methods p151,
+EI0333,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0334,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0335,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0336,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0337,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0338,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0339,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0340,CD053,Belt,18,20,1,20,Materials and Methods 2.2.2 Coral disease abundance p106,
+EI0341,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0342,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0343,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0344,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0345,CD054,Belt,6,30,2,60,Materials and Methods p182,
+EI0346,CD054,Belt,6,30,2,60,Materials and Methods p182,
+EI0347,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0348,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0349,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0350,CD054,Belt,3,30,2,60,Materials and Methods p182,
+EI0351,CD054,Belt,6,30,2,60,Materials and Methods p182,
+EI0352,CD054,Belt,6,30,2,60,Materials and Methods p182,
+EI0353,CD055,Belt,27,40,5,200,Materials and Methods Abundance and distribution of diseased corals p63,
+EI0354,CD056,Belt,30,20,2,40,"Materials and Methods Study design p77, Figure 1",
+EI0355,CD056,Belt,39,20,2,40,"Materials and Methods Study design p77, Figure 1",
+EI0356,CD056,Belt,15,20,2,40,"Materials and Methods Study design p77, Figure 1",
+EI0357,CD057,Belt,160,20,2,40,Materials and Methods Static and dynamic trends in the geographic distribution of coral disease p2-3,
+EI0358,CD057,Belt,160,20,2,40,Materials and Methods Static and dynamic trends in the geographic distribution of coral disease p2-3,
+EI0359,CD057,Belt,160,20,2,40,Materials and Methods Static and dynamic trends in the geographic distribution of coral disease p2-3,
+EI0360,CD058,Belt,7,20,2,40,Methods,
+EI0361,CD058,Belt,7,20,2,40,Methods,
+EI0362,CD058,Belt,7,20,2,40,Methods,
+EI0363,CD059,Line,5,30,,,Materials and Methods p2,
+EI0364,CD059,Line,5,30,,,Materials and Methods p2,
+EI0365,CD059,Line,5,30,,,Materials and Methods p2,
+EI0366,CD059,Line,5,30,,,Materials and Methods p2,
+EI0367,CD059,Line,5,30,,,Materials and Methods p2,
+EI0368,CD059,Line,5,30,,,Materials and Methods p2,
+EI0369,CD059,Line,5,30,,,Materials and Methods p2,
+EI0370,CD060,Circle,27,20,,314,Materials and Methods p2-3,
+EI0371,CD060,Circle,20,20,,314,Materials and Methods p2-3,
+EI0372,CD060,Circle,28,20,,314,Materials and Methods p2-3,
+EI0373,CD061,Belt,5,15,1.5,22.5,Materials and Methods,
+EI0374,CD061,Belt,5,15,1.5,22.5,Materials and Methods,
+EI0375,CD061,Belt,15,15,1.5,22.5,Materials and Methods,
+EI0376,CD061,Belt,17,15,1.5,22.5,Materials and Methods,
+EI0377,CD061,Belt,10,15,1.5,22.5,Materials and Methods,
+EI0378,CD061,Belt,16,15,1.5,22.5,Materials and Methods,
+EI0379,CD061,Belt,2,15,1.5,22.5,Materials and Methods,
+EI0380,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0381,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0382,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0383,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0384,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0385,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0386,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0387,CD062,Belt,3,40,1,40,Materials and Methods Spatial patterns of Acroporid white syndrome,
+EI0388,CD063,Belt,3,25,2,50,Materials and Methods 2.3 Live coral cover and disease prevalence,
+EI0389,CD063,Belt,3,25,2,50,Materials and Methods 2.3 Live coral cover and disease prevalence,
+EI0390,CD063,Belt,3,25,2,50,Materials and Methods 2.3 Live coral cover and disease prevalence,
+,CD064,,3,,,,Materials and Methods Field survey of disease occurrence p3,
+,CD064,,,,,,,
+,CD064,,,,,,,
+,CD064,,,,,,,
+,CD064,,,,,,,
+,CD064,,,,,,,
+EI0391,CD065,Belt,"3, 5","20, 10",2,"40, 20",Material and Methods Field surveys and progression rate,"Two different transect sizes utilized at reef flats vs reef slope, but both included in this disease prevalence"
+EI0392,CD065,Belt,"3, 5","20, 10",2,"40, 20",Material and Methods Field surveys and progression rate,"Two different transect sizes utilized at reef flats vs reef slope, but both included in this disease prevalence"
+EI0393,CD065,Belt,"3, 5","20, 10",2,"40, 20",Material and Methods Field surveys and progression rate,"Two different transect sizes utilized at reef flats vs reef slope, but both included in this disease prevalence"
+EI0394,CD066,Belt,"3, 5","20, 10",2,"40, 20",Materials and Methods Disease surveys p250,"Two different transect sizes utilized at reef flats vs reef slope, but both included in this disease prevalence"
+EI0395,CD066,Belt,"3, 5","20, 10",2,"40, 20",Materials and Methods Disease surveys p250,"Two different transect sizes utilized at reef flats vs reef slope, but both included in this disease prevalence"
+EI0396,CD066,Belt,"3, 5","20, 10",2,"40, 20",Materials and Methods Disease surveys p250,"Two different transect sizes utilized at reef flats vs reef slope, but both included in this disease prevalence"
+EI0397,CD066,Belt,"3, 5","20, 10",2,"40, 20",Materials and Methods Disease surveys p250,"Two different transect sizes utilized at reef flats vs reef slope, but both included in this disease prevalence"
+EI0398,CD066,Belt,5,10,2,20,Materials and Methods Disease surveys p250,
+EI0399,CD066,Belt,5,10,2,20,Materials and Methods Disease surveys p250,
+EI0400,CD066,Belt,5,10,2,20,Materials and Methods Disease surveys p250,
+EI0401,CD066,Belt,5,10,2,20,Materials and Methods Disease surveys p250,
+EI0402,CD066,Belt,5,10,2,20,Materials and Methods Disease surveys p250,
+EI0403,CD066,Belt,5,10,2,20,Materials and Methods Disease surveys p250,
+EI0404,CD067,Belt,5,10,2,20,Materials and Methods 2.1 Temporal and spatial variability of CYBD Incidence in M Faveolata p2,
+EI0405,CD067,Belt,5,10,2,20,Materials and Methods 2.1 Temporal and spatial variability of CYBD Incidence in M Faveolata p2,
+EI0406,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0407,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0408,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0409,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0410,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0411,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0412,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0413,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0414,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0415,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0416,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0417,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0418,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0419,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0420,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0421,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0422,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0423,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0424,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0425,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0426,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0427,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0428,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0429,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0430,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0431,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0432,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0433,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0434,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0435,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0436,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0437,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0438,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0439,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0440,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0441,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0442,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0443,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0444,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0445,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0446,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0447,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0448,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0449,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0450,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0451,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0452,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0453,CD068,Belt,12,10,2,20,Materials and Methods Temporal and spatial variability in prevalence of CYBD in O. faveolata and O. franski p85,
+EI0454,CD069,Belt,2,25,2,50,Materials and Methods Survey method p22,
+EI0455,CD069,Belt,2,25,2,50,Materials and Methods Survey method p22,
+EI0456,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0457,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0458,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0459,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0460,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0461,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0462,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0463,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0464,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0465,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0466,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0467,CD070,Belt,40,20,4,80,Materials and Methods Field data collection p65,
+EI0468,CD034,Line,80,30,1,30,Methods In situ sampling protocols p292,Assume 1 transect per site because not stated otherwise
+,CD025,,,,,,,
+EI0469,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0470,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0471,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0472,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0473,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0474,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0475,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0476,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0477,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0478,CD071,Belt,40,10,2,20,Materials and Method Prevalence and spatial distribution p60-61,
+EI0479,CD072,Belt,8,30,1,30,Materials and Methods,
+EI0480,CD072,Belt,8,30,1,30,Materials and Methods,
+EI0481,CD072,Belt,8,30,1,30,Materials and Methods,
+EI0482,CD072,Belt,8,30,1,30,Materials and Methods,
+EI0483,CD073,Belt,2,25,1,25,Materials and Methods p214,
+EI0484,CD073,Belt,2,25,3,75,Materials and Methods p214,
+EI0485,CD073,Belt,2,25,3,75,Materials and Methods p214,
+EI0486,CD073,Belt,2,25,3,75,Materials and Methods p214,
+EI0487,CD073,Belt,2,25,3,75,Materials and Methods p214,
+EI0488,CD073,Belt,2,25,3,75,Materials and Methods p214,
+EI0489,CD073,Belt,2,25,3,75,Materials and Methods p214,
+EI0490,CD074,Circle,5,5,,79,Materials and Methods Disease surveys p546,
+EI0491,CD074,Circle,4,5,,79,Materials and Methods Disease surveys p546,
+EI0492,CD074,Circle,4,5,,79,Materials and Methods Disease surveys p546,
+EI0493,CD074,Circle,4,5,,79,Materials and Methods Disease surveys p546,
+EI0494,CD075,Belt,64,22,1,22,Materials and Mtehods Coral monitoring surveys,
+EI0495,CD075,Belt,88,22,1,22,Materials and Mtehods Coral monitoring surveys,
+EI0496,CD075,Belt,88,22,1,22,Materials and Mtehods Coral monitoring surveys,
+EI0497,CD075,Belt,88,22,1,22,Materials and Mtehods Coral monitoring surveys,
+EI0498,CD075,Belt,88,22,1,22,Materials and Mtehods Coral monitoring surveys,
+EI0499,CD076,Belt,30,25,2,50,Materials and Methods p24,
+EI0500,CD076,Belt,30,25,2,50,Materials and Methods p24,
+EI0501,CD077,Belt,6,50,2,100,Materials and Methods p164,
+EI0502,CD077,Belt,6,50,2,100,Materials and Methods p164,
+EI0503,CD078,Belt,33,10,1,10,Methods Sampling location and data collection,
+EI0504,CD079,Belt,30,15,1,15,Methods 2.2. Coral cover and disease surveys,
+,CD080,,,,,,,
+EI0505,CD081,Belt,6,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0506,CD081,Belt,4,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0507,CD081,Belt,15,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0508,CD081,Belt,14,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0509,CD081,Belt,5,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0510,CD081,Belt,4,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0511,CD081,Belt,6,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0512,CD081,Belt,4,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0513,CD081,Belt,4,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0514,CD081,Belt,14,10,1,10,"Table 2, Materials and Methods Disease prevalence and coral mortality p3, Fall 2017 data collection p4",
+EI0515,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0516,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0517,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0518,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0519,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0520,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0521,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0522,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0523,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0524,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0525,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0526,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0527,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0528,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0529,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0530,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0531,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0532,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0533,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0534,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0535,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0536,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0537,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0538,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0539,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0540,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0541,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0542,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0543,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0544,CD082,Belt,32,10,2,20,Materials and Methods Methods p223,
+EI0545,CD083,Belt,54,20,0.5,10,Methods Coral dataset p444 ,didn't specify transect number so took avg of 4-8 and then multiplied by 9 sites
+EI0546,CD083,Belt,18,20,0.5,10,Methods Coral dataset p444,didn't specify transect number so took avg of 4-8 and then multiplied by 3 sites
+EI0547,CD083,Belt,54,20,0.5,10,Methods Coral dataset p444,didn't specify transect number so took avg of 4-8 and then multiplied by 9 sites
+EI0548,CD083,Belt,30,20,0.5,10,Methods Coral dataset p444,didn't specify transect number so took avg of 4-8 and then multiplied by 5 sites
+EI0549,CD083,Belt,30,20,0.5,10,Methods Coral dataset p444,didn't specify transect number so took avg of 4-8 and then multiplied by 5 sites
+EI0550,CD083,Belt,24,20,0.5,10,Methods Coral dataset p444,didn't specify transect number so took avg of 4-8 and then multiplied by 4 sites
+EI0551,CD084,Belt,18,15,2,30,Methods Coral health and community composition surveys,
+EI0552,CD084,Belt,9,15,2,30,Methods Coral health and community composition surveys,
+EI0553,CD084,Belt,6,15,2,30,Methods Coral health and community composition surveys,
+EI0554,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0555,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0556,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0557,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0558,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0559,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0560,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0561,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0562,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0563,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0564,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0565,CD085,Belt,18,10,1,10,Material and Methods Field censuses,
+EI0566,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0567,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0568,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0569,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0570,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0571,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0572,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0573,CD086,Line,1,10,1,10,Methods AGRRA surveys and disease monitoring p125,
+EI0574,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0575,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0576,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0577,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0578,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0579,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0580,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0581,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0582,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0583,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0584,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0585,CD087,Belt,5,15,1,15,Materials and Methods,
+EI0586,CD088,Belt,36,10,2,20,Methods Coral health assessments p3,
+EI0587,CD088,Belt,36,10,2,20,Methods Coral health assessments p3,
+EI0588,CD088,Belt,36,10,2,20,Methods Coral health assessments p3,
+EI0589,CD088,Belt,36,10,2,20,Methods Coral health assessments p3,
+EI0590,CD088,Belt,36,10,2,20,Methods Coral health assessments p3,
+EI0591,CD088,Belt,36,10,2,20,Methods Coral health assessments p3,
+EI0592,CD088,Belt,36,10,2,20,Methods Coral health assessments p3,
+EI0593,CD089,Circle,22,10,,314,"Methods p162, Table 1",length is radius
+,CD090,Line,18,,,,Materials and Methods Tumor frequency and distribution - field study p98,
+EI0594,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0595,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0596,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0597,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0598,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0599,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0600,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0601,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0602,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0603,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0604,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0605,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0606,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0607,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0608,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0609,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0610,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0611,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0612,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0613,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0614,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0615,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0616,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0617,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0618,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0619,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0620,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0621,CD091,Belt,9,30,2,60,Methods Sampling and data analysis p620,
+EI0622,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0623,CD091,Belt,3,30,2,60,Methods Sampling and data analysis p620,
+EI0624,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0625,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0626,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0627,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0628,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0629,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0630,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0631,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0632,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0633,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0634,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0635,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0636,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0637,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0638,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0639,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0640,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0641,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0642,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0643,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0644,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0645,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0646,CD092,Belt,130,30,2,60,Materials and Methods Spatial patterns of coral cover and disease prevalence p81-82,
+EI0647,CD093,Belt,6,20,0.6,12,Materials and Methods Methods p5,
+EI0648,CD093,Belt,39,10,0.4,4,Materials and Methods Methods p5,
+EI0649,CD093,Belt,6,20,0.6,12,Materials and Methods Methods p5,
+EI0650,CD093,Belt,42,10,0.4,4,Materials and Methods Methods p5,
+EI0651,CD093,Quadrat,3,50,2,100,Materials and Methods Methods p5,
+EI0652,CD093,Circle,3,10,,314,Materials and Methods Methods p5,length is diameter
+EI0653,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0654,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0655,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0656,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0657,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0658,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0659,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0660,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0661,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0662,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0663,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0664,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0665,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0666,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0667,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0668,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0669,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0670,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0671,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0672,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0673,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0674,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0675,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0676,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0677,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0678,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0679,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0680,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0681,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0682,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0683,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0684,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0685,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0686,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0687,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0688,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0689,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0690,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0691,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0692,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0693,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0694,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0695,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0696,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0697,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0698,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0699,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0700,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0701,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0702,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0703,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0704,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0705,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0706,CD094,Belt,6,10,2,20,Materials and Methods Transect methodology p10,
+EI0707,CD095,Belt,7,20,2,40,Methods and Materials Survey and analytical methods p127,"Transect length varied per transect due to environmental challenges, 20m on average; Study area metric in Moderator Data accurate to real study area size"
+EI0708,CD095,Belt,7,20,2,40,Methods and Materials Survey and analytical methods p127,"Transect length varied per transect due to environmental challenges, 20m on average; Study area metric in Moderator Data accurate to real study area size"
+EI0709,CD096,Belt,1,15,2,30,Materials and Methods Prevalence and severity of Gas,
+EI0710,CD096,Belt,1,15,2,30,Materials and Methods Prevalence and severity of Gas,
+EI0711,CD097,Belt,1,25,10,250,Materials and Methods p240,
+EI0712,CD097,Belt,1,25,10,250,Materials and Methods p240,
+EI0713,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0714,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0715,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0716,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0717,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0718,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0719,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0720,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0721,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0722,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0723,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0724,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0725,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0726,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0727,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0728,CD099,Circle,1,8.6667,,235.97,Materials and Methods Surveillance,radius averaged from 3 sizes
+EI0729,CD098,Quadrat,14,1,1,1,Materials and Methods p98,
+EI0730,CD098,Quadrat,14,1,1,1,Materials and Methods p98,
+EI0731,CD100,Belt,24,25,1,25,Materials and Methods p160,
+EI0732,CD100,Belt,24,25,1,25,Materials and Methods p160,
+EI0733,CD100,Belt,24,25,1,25,Materials and Methods p160,
+EI0734,CD100,Belt,24,25,1,25,Materials and Methods p160,
+EI0735,CD101,Belt,4,20,1,20,Material and Methods Observation Method p2,
+EI0736,CD101,Belt,4,20,1,20,Material and Methods Observation Method p2,
+EI0737,CD101,Belt,4,20,1,20,Material and Methods Observation Method p2,
+,Meyers & Raymundo 2009,Belt,6,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+,Meyers & Raymundo 2009,Belt,3,20,2,40,Materials and Methods p98,
+EI0738,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0739,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0740,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0741,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0742,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0743,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0744,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0745,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0746,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0747,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0748,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0749,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0750,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0751,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0752,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0753,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0754,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0755,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0756,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0757,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0758,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0759,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0760,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0761,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0762,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0763,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0764,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0765,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0766,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0767,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0768,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0769,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0770,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0771,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0772,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0773,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0774,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0775,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0776,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0777,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0778,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0779,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0780,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0781,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0782,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0783,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0784,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0785,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0786,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0787,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0788,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0789,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0790,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0791,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0792,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0793,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0794,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0795,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0796,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0797,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0798,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0799,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0800,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0801,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0802,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0803,CD102,Belt,4,10,2,20,Materials and Methods p97,"Transect number averaged, 3-5 per site"
+EI0804,CD103,Belt,108,20,2,40,Materials and Methods p259,
+EI0805,CD103,Belt,108,20,2,40,Materials and Methods p259,
+EI0806,CD104,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys p2796,
+EI0807,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0808,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0809,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0810,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0811,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0812,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0813,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0814,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0815,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0816,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0817,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0818,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0819,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0820,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0821,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0822,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0823,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0824,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0825,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0826,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0827,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0828,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0829,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0830,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0831,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0832,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0833,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0834,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0835,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0836,CD105,Quadrat,3,10,10,100,Materials and Methods Study site and field surveys,
+EI0837,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0838,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0839,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0840,CD105,Quadrat,6,10,10,100,Materials and Methods Study site and field surveys,
+EI0841,CD106,Belt,30,50,2,100,Materials and Methods White syndrome prevalence,
+EI0842,CD106,Belt,30,50,2,100,Materials and Methods White syndrome prevalence,
+EI0843,CD107,Belt,18,25,6,150,Materials and Methods Susceptibility to coral disease,
+EI0844,CD107,Belt,18,25,6,150,Materials and Methods Susceptibility to coral disease,
+EI0845,CD107,Belt,10,50,1,50,Materials and Methods Susceptibility to coral disease,
+EI0846,CD107,Belt,10,50,1,50,Materials and Methods Susceptibility to coral disease,
+EI0847,CD108,Belt,30,20,2,40,Material and Methods p57,
+EI0848,CD108,Belt,30,20,2,40,Material and Methods p57,
+EI0849,CD108,Belt,30,20,2,40,Material and Methods p57,
+EI0850,CD108,Belt,15,20,2,40,Material and Methods p57,
+EI0851,CD108,Belt,15,20,2,40,Material and Methods p57,
+EI0852,CD108,Belt,15,20,2,40,Material and Methods p57,
+EI0853,CD108,Belt,21,20,2,40,Material and Methods p57,
+EI0854,CD108,Belt,21,20,2,40,Material and Methods p57,
+EI0855,CD108,Belt,21,20,2,40,Material and Methods p57,
+EI0856,CD108,Belt,18,20,2,40,Material and Methods p57,
+EI0857,CD108,Belt,18,20,2,40,Material and Methods p57,
+EI0858,CD108,Belt,18,20,2,40,Material and Methods p57,
+EI0859,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0860,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0861,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0862,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0863,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0864,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0865,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0866,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0867,CD109,Belt,6,20,4,80,Materials and Methods p814,"Material and Methods p814 says ""9 locations (18 sites…"" so assumed 2 sites per location and 3 transects per site"
+EI0868,CD110,Belt,3,10,2,20,Materials and Methods Sampling sites and environmental parameters p194,
+EI0869,CD110,Belt,3,10,2,20,Materials and Methods Sampling sites and environmental parameters p194,
+EI0870,CD110,Belt,3,10,2,20,Materials and Methods Sampling sites and environmental parameters p194,
+EI0871,CD110,Belt,3,10,2,20,Materials and Methods Sampling sites and environmental parameters p194,
+EI0872,CD110,Belt,3,10,2,20,Materials and Methods Sampling sites and environmental parameters p194,
+EI0873,CD110,Belt,3,10,2,20,Materials and Methods Sampling sites and environmental parameters p194,
+EI0874,CD111,Line,108,10,1,10,Methods,
+EI0875,CD111,Line,108,10,1,10,Methods,
+EI0876,CD111,Line,108,10,1,10,Methods,
+EI0877,CD111,Line,108,10,1,10,Methods,
+EI0878,CD111,Line,108,10,1,10,Methods,
+EI0879,CD111,Line,108,10,1,10,Methods,
+EI0880,CD111,Line,108,10,1,10,Methods,
+EI0881,CD112,Belt,22,200,1,200,Materials and Methods White plague type ii data collection,
+EI0882,CD112,Belt,15,200,1,200,Materials and Methods White plague type ii data collection,
+EI0883,CD112,Belt,11,200,1,200,Materials and Methods White plague type ii data collection,
+EI0884,CD112,Belt,6,200,1,200,Materials and Methods White plague type ii data collection,
+EI0885,CD112,Belt,12,200,1,200,Materials and Methods White plague type ii data collection,
+EI0886,CD112,Belt,9,200,1,200,Materials and Methods White plague type ii data collection,
+EI0887,CD112,Belt,19,200,1,200,Materials and Methods White plague type ii data collection,
+EI0888,CD112,Belt,15,200,1,200,Materials and Methods White plague type ii data collection,
+EI0889,CD112,Belt,22,200,1,200,Materials and Methods White plague type ii data collection,
+EI0890,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0891,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0892,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0893,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0894,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0895,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0896,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0897,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0898,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0899,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0900,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0901,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0902,CD113,Quadrat,36,0.75,0.25,0.1875,Material and Methods p7,Quadrats contiguous to create one large sample area; for some reason this math doesn't add up…
+EI0903,CD114,Belt,3,20,1,20,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",
+EI0904,CD114,Belt,54,20,1,20,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",
+EI0905,CD114,Belt,54,20,1,20,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",
+EI0906,CD114,Belt,3,20,1,20,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",
+EI0907,CD114,Belt,3,20,1,20,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",
+EI0908,CD114,Belt,3,20,1,20,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",
+EI0909,CD115,Belt,3,20,4,80,Materials and Methods p70,
+EI0910,CD115,Belt,3,20,4,80,Materials and Methods p70,
+EI0911,CD115,Belt,3,20,4,80,Materials and Methods p70,
+EI0912,CD116,Circle,150,20,,314,Materials and Methods Surveys p34,length is diameter
+EI0913,CD116,Circle,165,20,,314,Materials and Methods Surveys p34,length is diameter
+EI0914,CD117,Belt,59,50,4,200,Materials and Methods Disease spatial and temporal patterns p91,"Transect diameter changes halfway down transect, took average of widths"
+EI0915,CD117,Belt,40,50,4,200,Materials and Methods Disease spatial and temporal patterns p91,"Transect diameter changes halfway down transect, took average of widths"
+EI0916,CD117,Belt,40,50,4,200,Materials and Methods Disease spatial and temporal patterns p91,"Transect diameter changes halfway down transect, took average of widths"
+EI0917,CD117,Belt,40,50,4,200,Materials and Methods Disease spatial and temporal patterns p91,"Transect diameter changes halfway down transect, took average of widths"
+EI0918,CD117,Belt,40,50,4,200,Materials and Methods Disease spatial and temporal patterns p91,"Transect diameter changes halfway down transect, took average of widths"
+EI0919,CD117,Belt,40,50,4,200,Materials and Methods Disease spatial and temporal patterns p91,"Transect diameter changes halfway down transect, took average of widths"
+EI0920,CD117,Belt,40,50,4,200,Materials and Methods Disease spatial and temporal patterns p91,"Transect diameter changes halfway down transect, took average of widths"
+EI0921,CD118,Belt,12,20,2,40,Materials and Methods Survey technique p79,Transect width averaged - real width between 1-3m
+EI0922,CD118,Belt,12,20,2,40,Materials and Methods Survey technique p79,Transect width averaged - real width between 1-3m
+EI0923,CD118,Belt,12,20,2,40,Materials and Methods Survey technique p79,Transect width averaged - real width between 1-3m
+EI0924,CD119,Quadrat/Belt,5,25,2,55,Materials and Methods p76,"Sampling done in each site differently, data presented here for A palmata-dominated site sampling methods, plot area added 5m^2 for the area of the A cervicornis-dominated site sample area"
+EI0925,CD119,Belt,3,25,2,50,Materials and Methods p76,
+EI0926,CD119,Line,3,25,1,25,Materials and Methods p76,
+EI0927,CD120,Belt,90,10,2,20,Results and Disucssions p188,
+EI0928,CD121,Belt,3,50,3,150,p640,
+EI0929,CD121,Belt,3,50,3,150,p640,
+EI0930,CD122,Belt,29,,,26218.07,Materials and Methods p125,"entire sites surveyed, transects only used to divide area into more manageable sections; input here average site size"
+EI0931,CD123,Belt,28,25,1,25,Materials and Methods Benthic surveys p3 (Maragos et al. 2004),
+EI0932,CD123,Belt,28,25,1,25,Materials and Methods Benthic surveys p3 (Maragos et al. 2004),
+EI0933,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0934,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0935,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0936,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0937,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0938,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0939,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0940,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0941,CD021,Belt,1,313,41,12833,Methods Prevalence and incidence of BBD and water temperature p53,"No transects, one large sample area"
+EI0942,CD023,Belt,100,10,1,10,AGRRA protocol p14,https://www.researchgate.net/publication/265148106_Agrra_protocols_version_54
+EI0943,CD023,Belt,100,10,1,10,AGRRA protocol p14,
+EI0944,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0945,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0946,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0947,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0948,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0949,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0950,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0951,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0952,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0953,CD023,Circle,50,10,,314,Materials and Methods p68,length is radius
+EI0954,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0955,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0956,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0957,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0958,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0959,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0960,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0961,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0962,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0963,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0964,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0965,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0966,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0967,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0968,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0969,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0970,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0971,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0972,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0973,CD023,Belt,20,10,1,10,AGRRA protocol p14,
+EI0974,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0975,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0976,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0977,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0978,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0979,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0980,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0981,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0982,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0983,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0984,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0985,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0986,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0987,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0988,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0989,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0990,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0991,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0992,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0993,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0994,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0995,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0996,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0997,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0998,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI0999,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1000,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1001,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1002,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1003,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1004,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1005,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1006,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1007,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1008,CD005,Circle,55,9,,311,Methods Observational data p1324,length is radius and averaged (real length = 8-10)
+EI1009,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1010,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1011,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1012,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1013,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1014,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1015,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1016,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1017,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1018,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius
+EI1019,CD024,Circle,60,10,,314,Materials and Methods p922,length is radius

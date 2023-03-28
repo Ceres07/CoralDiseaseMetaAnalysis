@@ -1,0 +1,1054 @@
+﻿Effect_ID,Paper_ID,DiseasePrev_SD,SST_SE,SST_SD,Sample_Area_km2,Site_Num,SourceSite_Num,Coral_N,Mixed_Sp,Notes
+EI0001,CD001,,,,9.424,30,Results p220,1397,1,
+EI0002,CD001,,,,9.424,30,Results p220,1397,1,
+EI0003,CD001,,,,9.424,30,Results p220,1397,1,
+EI0004,CD002,7.9,,,0.38,9,Methods 2015 two-year post-grounding surveys,285,1,Coral_N USSG Ground Zero and Impact Border combined
+EI0005,CD002,5.4,,,0.38,9,Methods 2015 two-year post-grounding surveys,285,1,Coral_N USSG Ground Zero and Impact Border combined
+EI0006,CD002,2.7,,,0.38,9,Methods 2015 two-year post-grounding surveys,529,1,USSG Control (3-S)
+EI0007,CD002,10.2,,,0.38,9,Methods 2015 two-year post-grounding surveys,274,1,Coral_N MPY Ground Zero and Impact Border combined
+EI0008,CD002,9.9,,,0.38,9,Methods 2015 two-year post-grounding surveys,274,1,Coral_N MPY Ground Zero and Impact Border combined
+EI0009,CD002,0.1,,,0.38,9,Methods 2015 two-year post-grounding surveys,1339,1,MPY Control (1-N)
+EI0010,CD003,1.3769181,,,0.54,3,Results 3.3.1 p60,6373,1,
+EI0011,CD003,0.6168095,,,0.54,3,Results 3.3.1 p60,6373,1,
+EI0012,CD004,,,,0.525,12,Figure 1,5498,1,
+EI0013,CD006,,,,3.78,13,Table 1,47166,1,
+EI0014,CD006,,,,3.6,12,Table 1,38251,1,
+EI0015,CD008,3.2,,,,7,Table 2,744,1,
+EI0016,CD008,7.3,,,,7,Table 2,558,1,
+EI0017,CD007,,,,,16,Results p4,1403,1,
+EI0018,CD007,,,,,16,Results p4,1403,1,
+EI0019,CD007,,,,,16,Results p4,1403,1,
+EI0020,CD007,,,,,16,Results p4,1403,1,
+EI0021,CD007,,,,,16,Results p4,1403,1,
+EI0022,CD007,,,,,16,Results p4,1403,1,
+EI0023,CD007,,,,,16,Results p4,1403,1,
+EI0024,CD007,,,,,16,Results p3,1416,1,
+EI0025,CD007,,,,,16,Results p3,1416,1,
+EI0026,CD007,,,,,16,Results p3,1416,1,
+EI0027,CD007,,,,,16,Results p3,1416,1,
+EI0028,CD007,,,,,16,Results p3,1416,1,
+EI0029,CD007,,,,,16,Results p3,1416,1,
+EI0030,CD010,6.236096,,,0.15,5,Materials and Methods Survey methods p370,556,0,
+EI0031,CD010,7.015608,,,0.15,5,Materials and Methods Survey methods p370,468,0,
+EI0032,CD010,4.677072,,,0.15,5,Materials and Methods Survey methods p370,373,0,
+EI0033,CD010,6.236096,,,0.15,5,Materials and Methods Survey methods p370,337,0,
+EI0034,CD010,7.79512,,,0.15,5,Materials and Methods Survey methods p370,318,0,
+EI0035,CD010,7.79512,,,0.15,5,Materials and Methods Survey methods p370,298,0,
+EI0037,CD012,0.096205,,,1.2,1,Materials and Methods Survey area,,1,1 site stated because the effect sizes are split by site for this paper
+EI0038,CD012,0.09065472,,,1.2,1,Materials and Methods Survey area,,1,1 site stated because the effect sizes are split by site for this paper
+EI0039,CD012,0,,,1.2,1,Materials and Methods Survey area,,1,1 site stated because the effect sizes are split by site for this paper
+EI0040,CD013,,,,1.26,7,Table S1,21646,1,Area and coral number pooled from both effect sizes
+EI0041,CD013,,,,1.26,7,Table S1,21646,1,Area and coral number pooled from both effect sizes
+EI0042,CD014,49.22014885,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0043,CD014,13.39535697,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0044,CD014,8.09951816,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0045,CD014,14.95295661,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0046,CD014,16.82207619,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0047,CD014,2.49215944,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0048,CD014,12.46079718,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0049,CD014,19.93727548,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0050,CD014,0,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0051,CD014,0,,,0.75,1,Figure 5,,1,1 site stated because the effect sizes are split by site for this paper
+EI0052,CD017,,,,1.2,1,Methods 2.1 Description of sites p2,183,0,Only one species identified at site
+EI0053,CD017,,,,1.2,1,Methods 2.1 Description of sites p2,183,0,Only one species identified at site
+EI0054,CD017,,,,1.2,1,Methods 2.1 Description of sites p2,309,1,
+EI0055,CD017,,,,1.2,1,Methods 2.1 Description of sites p2,309,1,
+EI0056,CD018,2.1025641,,,,8,Materials and methods Disease surveys p830,,1,
+EI0057,CD018,0.8184043,,,,5,Materials and methods Disease surveys p830,,1,
+EI0058,CD018,0.43514263,,,,4,Materials and methods Disease surveys p830,,1,
+EI0059,CD019,,,,1.35,9,"Materials and Methods Distribution, prevalence, and seasonality of MWS p2",,0,
+EI0060,CD019,,,,1.35,9,"Materials and Methods Distribution, prevalence, and seasonality of MWS p2",,0,
+EI0061,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0062,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0063,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0064,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0065,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0066,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0067,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0068,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0069,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0070,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0071,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0072,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0073,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0074,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0075,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0076,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0077,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0078,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0079,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0080,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0081,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0082,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0083,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0084,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0085,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0086,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0087,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0088,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0089,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0090,CD022,,,,3.14,5,Materials and Methods p68,2166,1,Data aggregated for whole study
+EI0091,CD026,,,,0.645,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0092,CD026,0.32787193,,,0.645,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0093,CD026,,,,0.645,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0094,CD026,0.55425626,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0095,CD026,,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0096,CD026,,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0097,CD026,0.34641016,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0098,CD026,0.76210236,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0099,CD026,2.5634352,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0100,CD026,,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0101,CD026,,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0102,CD026,0.96994845,,,0.72,6,Figure 1,36030,1,"CoralNum aggregated for whole study, other metrics effect size specific"
+EI0103,CD027,0,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0104,CD027,0,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0105,CD027,3.25246251,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0106,CD027,1.62623126,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0107,CD027,,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0108,CD027,,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0109,CD027,0.81311563,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0110,CD027,1.62623126,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0109,CD027,4.87869377,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0110,CD027,7.31804065,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0109,CD027,0,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0110,CD027,0,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0109,CD027,10.57050317,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0110,CD027,0.81311563,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0109,CD027,0,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0110,CD027,0,,,0.2,1,Methods Study sites and biannual disease surveys p816,,1,Mixed Montipora sp
+EI0111,CD028,0.11904762,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0112,CD028,0,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0113,CD028,0,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0114,CD028,0,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0115,CD028,1.71428571,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0116,CD028,0,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0117,CD028,0.23809524,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0118,CD028,1.833333,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0119,CD028,0.45238095,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0120,CD028,0.54761905,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0121,CD028,0.14285714,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0122,CD028,0.26190476,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0123,CD028,0.47619048,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0124,CD028,1.85714286,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0125,CD028,0,,,0.24,15,Figure 8,12352,1,Coral number aggregated from whole study
+EI0126,CD029,1.38461538,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0127,CD029,0.69230769,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0128,CD029,2.38461538,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0129,CD029,0.45536007,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0130,CD029,1.09286418,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0131,CD029,0.36428806,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0132,CD029,0.86518414,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0133,CD029,0.54643209,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0134,CD029,0.45536007,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0135,CD029,0.72857612,,,0.72,6,Materials and methods Study sites p949,,1,
+EI0136,CD029,1.11539983,,,0.14,6,Materials and methods Study sites p949,,1,
+EI0137,CD029,7.58471886,,,0.14,6,Materials and methods Study sites p949,,1,
+EI0138,CD030,,,,0.45,10,Methods Data collection,5983,1,
+EI0139,CD030,,,,0.45,10,Methods Data collection,4516,1,
+EI0140,CD031,,,,2.34,26,Results 3a Influence of protected areas on coral disease following an acute disturbance,36104,1,Coral number aggregated from whole study
+EI0141,CD031,,,,2.34,26,Results 3a Influence of protected areas on coral disease following an acute disturbance,36104,1,Coral number aggregated from whole study
+EI0142,CD031,,,,1.89,21,Results 3b Influence of protected areas on coral disease following a chronic disturbance,36104,1,Coral number aggregated from whole study
+EI0143,CD031,,,,1.89,21,Results 3b Influence of protected areas on coral disease following a chronic disturbance,36104,1,Coral number aggregated from whole study
+EI0144,CD032,,,,1.89,21,Methods Study location and protected areas management p2557,80866,1,Coral number aggregated from whole study
+EI0145,CD032,,,,1.8,20,Methods Study location and protected areas management p2557,80866,1,Coral number aggregated from whole study
+EI0146,CD033,,,,0.72,4,Figure 1,7043,1,
+EI0147,CD033,,,,0.63,4,Figure 1,9468,1,
+EI0148,CD035,,,,2.28,19,Table 1,113747,1,
+EI0149,CD036,,,,0.96,8,Materials and Methods Quantifying coral disease and coral community structure p137,,1,
+EI0150,CD036,,,,0.96,8,Materials and Methods Quantifying coral disease and coral community structure p137,,1,
+EI0151,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0152,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0153,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0154,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0155,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0156,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0157,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0158,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0159,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0160,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0161,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0162,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0163,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0164,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0165,CD037,,0.1,,0.16,2,Materials and Methods p2860,96,0,
+EI0166,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0167,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0168,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0169,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0170,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0171,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0172,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0173,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0174,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0175,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0176,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0177,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0178,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0179,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0180,CD037,,0.1,,0.16,2,Materials and Methods p2860,172,0,
+EI0181,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0182,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0183,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0184,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0185,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0186,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0187,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0188,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0189,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0190,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0191,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0192,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0193,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0194,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0195,CD037,,0.1,,0.16,2,Materials and Methods p2860,28,0,
+EI0196,CD038,5.707549,,,0.06,1,Materials and Methods Study site,,0,
+EI0197,CD038,2.186084,,,0.03,1,Materials and Methods Study site,,0,
+EI0198,CD038,4.119927,,,0.03,1,Materials and Methods Study site,,0,
+EI0199,CD038,3.026885,,,0.03,1,Materials and Methods Study site,,0,
+EI0200,CD038,0,,,0.07,1,Materials and Methods Study site,,0,
+EI0201,CD039,,,,0.06,4,Materials and methods 2d Coral disease surveys p3,,0,
+EI0202,CD039,,,,0.06,4,Materials and methods 2d Coral disease surveys p3,,0,
+EI0203,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0204,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0205,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0206,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0207,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0208,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0209,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0210,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0211,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0212,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0213,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0214,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0215,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0216,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0217,CD040,,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0218,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0219,CD040,0.2856442,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0220,CD040,0.2040316,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0221,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0222,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0223,CD040,1.1629801,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0224,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0225,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0226,CD040,0.4284663,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0227,CD040,2.8972486,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0228,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0229,CD040,1.3670117,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0230,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0231,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0232,CD040,0,,,0.12,1,Figure 3a,,1,Effect sizes are per site
+EI0233,CD041,,,,,5,Table 1,821,1,
+EI0234,CD041,,,,,4,Table 1,516,1,
+EI0235,CD041,,,,,4,Table 1,501,1,
+EI0236,CD041,,,,,9,Table 1,1125,1,
+EI0237,CD042,0.04,,,,2,Materials and Methods p40,1439,1,
+EI0238,CD042,0.04,,,,2,Materials and Methods p40,1439,1,
+EI0239,CD042,0.3,,,,2,Materials and Methods p40,1439,1,
+EI0240,CD042,1.7,,,,2,Materials and Methods p40,1439,1,
+EI0241,CD042,0,,,,2,Materials and Methods p40,1439,1,
+EI0242,CD042,0.04,,,,2,Materials and Methods p40,1439,1,
+EI0243,CD042,0.04,,,,2,Materials and Methods p40,1439,1,
+EI0244,CD042,0,,,,2,Materials and Methods p40,1439,1,
+EI0245,CD042,1.95,,,,2,Materials and Methods p40,1439,1,
+EI0246,CD042,0.07,,,,2,Materials and Methods p40,1439,1,
+EI0247,CD043,,,,,6,Figure 1,,1,
+EI0248,CD043,,,,,6,Figure 1,,1,
+EI0249,CD043,,,,,6,Figure 1,,1,
+EI0250,CD043,,,,,6,Figure 1,,1,
+EI0036,CD044,1.26,,,,1,p1407,,0,
+EI0251,CD009,,,0.9333,1.44,1,Figure 1,,0,
+EI0252,CD011,4.931034,,,0.04,1,p293,,0,
+EI0253,CD011,3.862069,,,0.04,1,p293,,0,
+EI0254,CD011,4.931034,,,0.04,1,p293,,0,
+EI0255,CD011,2.137931,,,0.04,1,p293,,0,
+EI0256,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0257,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0258,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0259,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0260,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0261,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0262,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0263,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0264,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0265,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0266,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0267,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0268,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0269,CD015,,,,,1,Materials and Methods,,0,Effect sizes are per site
+EI0270,CD045,4.073204,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0271,CD045,1.481165,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0272,CD045,27.401557,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0273,CD045,14.07107,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0274,CD045,8.701846,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0275,CD045,4.813787,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0276,CD045,4.443496,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0277,CD045,6.897247,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0278,CD045,0.8114408,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0279,CD045,33.2690739,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0280,CD045,5.6800858,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0281,CD045,5.6800858,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0282,CD045,2.4343225,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0283,CD045,4.2600643,,,1.2,10,Figure 1,2327,1,Coral number aggregated from whole study
+EI0284,CD020,,,,0.15,22,Material and Methods Black band disease surveys,726,1,
+EI0285,CD020,,,,0.15,22,Material and Methods Black band disease surveys,930,1,
+EI0286,CD020,,,,0.15,22,Material and Methods Black band disease surveys,848,1,
+EI0287,CD020,,,,0.15,22,Material and Methods Black band disease surveys,1308,1,
+EI0288,CD020,,,,0.15,22,Material and Methods Black band disease surveys,1749,1,
+EI0289,CD020,,,,0.15,22,Material and Methods Black band disease surveys,1830,1,
+EI0290,CD020,,,,0.15,22,Material and Methods Black band disease surveys,2184,1,
+EI0291,CD020,,,,0.15,22,Material and Methods Black band disease surveys,6000,1,
+EI0292,CD020,,,,0.15,22,Material and Methods Black band disease surveys,4200,1,
+EI0293,CD020,,,,0.15,22,Material and Methods Black band disease surveys,6852,1,
+EI0294,CD020,,,,0.15,22,Material and Methods Black band disease surveys,5778,1,
+EI0295,CD020,,,,0.15,22,Material and Methods Black band disease surveys,3294,1,
+EI0296,CD020,,,,0.15,22,Material and Methods Black band disease surveys,3780,1,
+EI0297,CD020,,,,0.15,22,Material and Methods Black band disease surveys,5748,1,
+EI0298,CD020,,,,0.15,22,Material and Methods Black band disease surveys,5208,1,
+EI0299,CD020,,,,0.15,22,Material and Methods Black band disease surveys,474,1,
+EI0300,CD020,,,,0.15,22,Material and Methods Black band disease surveys,5556,1,
+EI0301,CD020,,,,0.15,22,Material and Methods Black band disease surveys,3720,1,
+EI0302,CD020,,,,0.15,22,Material and Methods Black band disease surveys,4320,1,
+EI0303,CD020,,,,0.15,22,Material and Methods Black band disease surveys,6588,1,
+EI0304,CD020,,,,0.15,22,Material and Methods Black band disease surveys,1281,1,
+EI0305,CD020,,,,0.15,22,Material and Methods Black band disease surveys,1716,1,
+EI0306,CD016,,,,0.06,4,Materials and Methods Survey methods p167,,1,
+EI0307,CD016,,,,0.06,4,Materials and Methods Survey methods p167,,1,
+EI0308,CD016,,,,0.06,4,Materials and Methods Survey methods p167,,1,
+EI0309,CD016,,,,0.06,3,Materials and Methods Survey methods p167,,1,
+EI0310,CD016,,,,0.06,3,Materials and Methods Survey methods p167,,1,
+EI0311,CD016,,,,0.06,3,Materials and Methods Survey methods p167,,1,
+EI0312,CD016,,,,0.06,2,Materials and Methods Survey methods p167,,1,
+EI0313,CD016,,,,0.06,2,Materials and Methods Survey methods p167,,1,
+EI0314,CD016,,,,0.06,2,Materials and Methods Survey methods p167,,1,
+EI0315,CD016,,,,0.06,3,Materials and Methods Survey methods p167,,1,
+EI0316,CD016,,,,0.06,3,Materials and Methods Survey methods p167,,1,
+EI0317,CD016,,,,0.06,3,Materials and Methods Survey methods p167,,1,
+EI0318,CD046,0,,,2.7,6,Figure 1,,1,"Sampling area calculated from transect data, but summing sampling area reported in Table 2 = 3.775"
+EI0319,CD047,,,,4.5,10,Materials and Methods Survey design p3,,1,Acropora plate corals
+EI0320,CD047,,,,4.05,9,Materials and Methods Survey design p3,,1,Acropora plate corals
+EI0321,CD048,,,,0.3,1,Figure 1,24,0,"Effect sizes are per site, colony number mean per transect"
+EI0322,CD048,,,,0.3,1,Figure 1,10,0,"Effect sizes are per site, colony number mean per transect"
+EI0323,CD049,2.014476,,0.7,0.8,10,Materials and Methods Coral Disease,,1,
+EI0324,CD049,8.944272,,0.8,0.8,10,Materials and Methods Coral Disease,,1,
+EI0325,CD049,6.204585,,0.9,0.8,10,Materials and Methods Coral Disease,,1,
+EI0326,CD049,6.365743,,1.1,0.8,10,Materials and Methods Coral Disease,,1,
+,Manikandan et al 2016,35.80069,,,,,,,,
+,Manikandan et al 2016,28.69966,,,,,,,,
+,Manikandan et al 2016,28.93735,,,,,,,,
+EI0327,CD050,,,,0.24,3,Figure 1,133,1,
+EI0328,CD051,0.443241,,,1.2,8,Materials and Methods Disease surveys,,1,
+EI0329,CD051,0.6998542,,,1.2,8,Materials and Methods Disease surveys,,1,
+EI0330,CD051,0.5365549,,,1.2,8,Materials and Methods Disease surveys,,1,
+EI0331,CD052,,,,0.09,1,Methods p151,,1,
+EI0332,CD052,,,,0.06,1,Methods p151,,1,
+EI0333,CD053,0.137931034,,,0.36,6,Results p106,,1,
+EI0334,CD053,0.731034483,,,0.36,6,Results p106,,1,
+EI0335,CD053,0.172413793,,,0.36,6,Results p106,,1,
+EI0336,CD053,0.2,,,0.36,6,Results p106,,1,
+EI0337,CD053,0.110344828,,,0.36,6,Results p106,,1,
+EI0338,CD053,0.068965517,,,0.36,6,Results p106,,1,
+EI0339,CD053,0.020689655,,,0.36,6,Results p106,,1,
+EI0340,CD053,0.006896552,,,0.36,6,Results p106,,1,
+EI0341,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0342,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0343,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0344,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0345,CD054,,,,0.36,1,Materials and Methods p182,,1,
+EI0346,CD054,,,,0.36,1,Materials and Methods p182,,1,
+EI0347,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0348,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0349,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0350,CD054,,,,0.18,1,Materials and Methods p182,,1,
+EI0351,CD054,,,,0.36,1,Materials and Methods p182,,1,
+EI0352,CD054,,,,0.36,1,Materials and Methods p182,,1,
+EI0353,CD055,,,,5.4,3,Materials and Methods Abundance and distribution of diseased corals p63,3081,1,
+EI0354,CD056,,,,1.2,10,Figure 1,,1,
+EI0355,CD056,,,,1.56,13,Figure 1,,1,
+EI0356,CD056,,,,0.6,5,Figure 1,,1,
+EI0357,CD057,,,,6.4,40,Figure 1,,1,
+EI0358,CD057,,,,6.4,40,Figure 1,,1,
+EI0359,CD057,,,,6.4,40,Figure 1,,1,
+EI0360,CD058,,,,0.28,7,Figure 1,238,1,"Admiral Patch Reef only for disease progression, not prevalence"
+EI0361,CD058,,,,0.28,7,Figure 1,157,1,"Admiral Patch Reef only for disease progression, not prevalence"
+EI0362,CD058,,,,0.28,7,Figure 1,299,1,"Admiral Patch Reef only for disease progression, not prevalence"
+EI0363,CD059,,,,,1,Materials and Methods p2,,1,
+EI0364,CD059,,,,,1,Materials and Methods p2,,1,
+EI0365,CD059,,,,,1,Materials and Methods p2,,1,
+EI0366,CD059,,,,,1,Materials and Methods p2,,1,
+EI0367,CD059,,,,,1,Materials and Methods p2,,1,
+EI0368,CD059,,,,,1,Materials and Methods p2,,1,
+EI0369,CD059,,,,,1,Materials and Methods p2,,1,
+EI0370,CD060,,,,8.478,7,Materials and Methods p3,,0,Site Num = reef number
+EI0371,CD060,,,,6.28,6,Materials and Methods p3,,0,Site Num = reef number
+EI0372,CD060,,,,8.792,9,Materials and Methods p3,,0,Site Num = reef number
+EI0373,CD061,11.40187,,,0.1125,5,Figure 1,,1,
+EI0374,CD061,10.46729,,,0.1125,5,Figure 1,,1,
+EI0375,CD061,3.853211,,,0.3375,15,Figure 1,,1,
+EI0376,CD061,3.853211,,,0.3825,17,Figure 1,,1,
+EI0377,CD061,1.100917,,,0.225,10,Figure 1,,1,
+EI0378,CD061,3.761468,,,0.36,16,Figure 1,,1,
+EI0379,CD061,4.954128,,,0.045,2,Figure 1,,1,
+EI0380,CD062,1.4568652,,,0.12,1,Figure 1,,1,
+EI0381,CD062,4.8562172,,,0.12,1,Figure 1,,1,
+EI0382,CD062,0.9712434,,,0.12,1,Figure 1,,1,
+EI0383,CD062,5.9893346,,,0.12,1,Figure 1,,1,
+EI0384,CD062,2.2662347,,,0.12,1,Figure 1,,1,
+EI0385,CD062,11.3311735,,,0.12,1,Figure 1,,1,
+EI0386,CD062,2.1043608,,,0.12,1,Figure 1,,1,
+EI0387,CD062,1.780613,,,0.12,1,Figure 1,,1,
+EI0388,CD063,,,,0.15,1,Materials and Methods 2.1 Study area,485,1,
+EI0389,CD063,,,,0.15,1,Materials and Methods 2.1 Study area,453,1,
+EI0390,CD063,,,,0.15,1,Materials and Methods 2.1 Study area,317,1,
+,CD064,,,,,,,,,
+,CD064,,,,,,,,,
+,CD064,,,,,,,,,
+,CD064,,,,,,,,,
+,CD064,,,,,,,,,
+,CD064,,,,,,,,,
+EI0391,CD065,,,,"0.48, 0.4",4,Material and Methods Field surveys and progression rate,5363,1,"4 stations, 3 sites, but use 4 because that's more relative to the transect number; coral number aggregated from whole study"
+EI0392,CD065,,,,"0.48, 0.4",4,Material and Methods Field surveys and progression rate,5363,1,"4 stations, 3 sites, but use 4 because that's more relative to the transect number; coral number aggregated from whole study"
+EI0393,CD065,,,,"0.48, 0.4",4,Material and Methods Field surveys and progression rate,5363,1,"4 stations, 3 sites, but use 4 because that's more relative to the transect number; coral number aggregated from whole study"
+EI0394,CD066,6.7,,,"0.48, 0.4",4,Table S1,23562,1,coral_n aggregated over all years surveyed
+EI0395,CD066,6.4,,,"0.48, 0.4",4,Table S1,23562,1,coral_n aggregated over all years surveyed
+EI0396,CD066,7.1,,,"0.48, 0.4",4,Table S1,23562,1,coral_n aggregated over all years surveyed
+EI0397,CD066,6.2,,,"0.48, 0.4",4,Table S1,23562,1,coral_n aggregated over all years surveyed
+EI0398,CD066,3.6,,,0.7,7,Table S1,17140,1,coral_n aggregated over all years surveyed
+EI0399,CD066,1.2,,,0.7,7,Table S1,17140,1,coral_n aggregated over all years surveyed
+EI0400,CD066,2,,,0.7,7,Table S1,17140,1,coral_n aggregated over all years surveyed
+EI0401,CD066,3.2,,,0.7,7,Table S1,17140,1,coral_n aggregated over all years surveyed
+EI0402,CD066,3.4,,,0.8,8,Table S1,19426,1,coral_n aggregated over all years surveyed
+EI0403,CD066,2.3,,,0.8,8,Table S1,19426,1,coral_n aggregated over all years surveyed
+EI0404,CD067,,,,0.1,6,Table 1,,0,
+EI0405,CD067,,,,0.1,6,Table 1,,0,
+EI0406,CD068,14.308246,,,0.24,1,Figure 1,,0,
+EI0407,CD068,14.308246,,,0.24,1,Figure 1,,0,
+EI0408,CD068,14.308246,,,0.24,1,Figure 1,,0,
+EI0409,CD068,12.300071,,,0.24,1,Figure 1,,0,
+EI0410,CD068,12.049049,,,0.24,1,Figure 1,,0,
+EI0411,CD068,9.287809,,,0.24,1,Figure 1,,0,
+EI0412,CD068,25.604229,,,0.24,1,Figure 1,,0,
+EI0413,CD068,24.600142,,,0.24,1,Figure 1,,0,
+EI0414,CD068,11.295984,,,0.24,1,Figure 1,,0,
+EI0415,CD068,12.802115,,,0.24,1,Figure 1,,0,
+EI0416,CD068,13.053137,,,0.24,1,Figure 1,,0,
+EI0417,CD068,12.300071,,,0.24,1,Figure 1,,0,
+EI0418,CD068,10.79394,,,0.24,1,Figure 1,,0,
+EI0419,CD068,21.085836,,,0.24,1,Figure 1,,0,
+EI0420,CD068,21.085836,,,0.24,1,Figure 1,,0,
+EI0421,CD068,23.345033,,,0.24,1,Figure 1,,0,
+EI0422,CD068,7.028612,,,0.24,1,Figure 1,,0,
+EI0423,CD068,4.518393,,,0.24,1,Figure 1,,0,
+EI0424,CD068,5.773503,,,0.24,1,Figure 1,,0,
+EI0425,CD068,3.514306,,,0.24,1,Figure 1,,0,
+EI0426,CD068,18.575617,,,0.24,1,Figure 1,,0,
+EI0427,CD068,0,,,0.24,1,Figure 1,,0,
+EI0428,CD068,10.040874,,,0.24,1,Figure 1,,0,
+EI0429,CD068,2.510219,,,0.24,1,Figure 1,,0,
+EI0430,CD068,0,,,0.24,1,Figure 1,,0,
+EI0431,CD068,0,,,0.24,1,Figure 1,,0,
+EI0432,CD068,0,,,0.24,1,Figure 1,,0,
+EI0433,CD068,0,,,0.24,1,Figure 1,,0,
+EI0434,CD068,0,,,0.24,1,Figure 1,,0,
+EI0435,CD068,0,,,0.24,1,Figure 1,,0,
+EI0436,CD068,0,,,0.24,1,Figure 1,,0,
+EI0437,CD068,0,,,0.24,1,Figure 1,,0,
+EI0438,CD068,20.5018259,,,0.24,1,Figure 1,,0,
+EI0439,CD068,14.6694099,,,0.24,1,Figure 1,,0,
+EI0440,CD068,3.5347976,,,0.24,1,Figure 1,,0,
+EI0441,CD068,1.7673988,,,0.24,1,Figure 1,,0,
+EI0442,CD068,12.5485314,,,0.24,1,Figure 1,,0,
+EI0443,CD068,13.9624504,,,0.24,1,Figure 1,,0,
+EI0444,CD068,14.3159301,,,0.24,1,Figure 1,,0,
+EI0445,CD068,14.3159301,,,0.24,1,Figure 1,,0,
+EI0446,CD068,0,,,0.24,1,Figure 1,,0,
+EI0447,CD068,0.3534798,,,0.24,1,Figure 1,,0,
+EI0448,CD068,0.5302196,,,0.24,1,Figure 1,,0,
+EI0449,CD068,0.8836994,,,0.24,1,Figure 1,,0,
+EI0450,CD068,0.3534798,,,0.24,1,Figure 1,,0,
+EI0451,CD068,0,,,0.24,1,Figure 1,,0,
+EI0452,CD068,1.7673988,,,0.24,1,Figure 1,,0,
+EI0453,CD068,1.0604393,,,0.24,1,Figure 1,,0,
+EI0454,CD069,,,,0.1,1,Figure 1,287,1,coral_n aggregated over whole study
+EI0455,CD069,,,,0.1,1,Figure 1,287,1,coral_n aggregated over whole study
+EI0456,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0457,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0458,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0459,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0460,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0461,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0462,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0463,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0464,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0465,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0466,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0467,CD070,,,,3.2,5,Figure 1,1930,1,
+EI0468,CD034,,,,2.4,80,Methods Study location and sampling stratification p291,1251,1,
+,CD025,,,,0.1,,,111,0,Coral_n calculated from percentage and number infected
+EI0469,CD071,1.6891669,,,0.8,8,Figure 2,,0,
+EI0470,CD071,1.8070158,,,0.8,8,Figure 2,,0,
+EI0471,CD071,1.8070158,,,0.8,8,Figure 2,,0,
+EI0472,CD071,2.2784112,,,0.8,8,Figure 2,,0,
+EI0473,CD071,2.0034306,,,0.8,8,Figure 2,,0,
+EI0474,CD071,1.649884,,,0.8,8,Figure 2,,0,
+EI0475,CD071,2.2391283,,,0.8,8,Figure 2,,0,
+EI0476,CD071,2.3569771,,,0.8,8,Figure 2,,0,
+EI0477,CD071,1.4141863,,,0.8,8,Figure 2,,0,
+EI0478,CD071,1.1784886,,,0.8,8,Figure 2,,0,
+EI0479,CD072,,,,0.24,1,Figure 1,,1,
+EI0480,CD072,,,,0.24,1,Figure 1,,1,
+EI0481,CD072,,,,0.24,1,Figure 1,,1,
+EI0482,CD072,,,,0.24,1,Figure 1,,1,
+EI0483,CD073,,,,0.05,18,Materials and Methods p212,,1,
+EI0484,CD073,,,,0.15,12,Materials and Methods p212,,1,
+EI0485,CD073,,,,0.15,6,Materials and Methods p212,,1,
+EI0486,CD073,,,,0.15,8,Materials and Methods p212,,1,
+EI0487,CD073,,,,0.15,9,Materials and Methods p212,,1,
+EI0488,CD073,,,,0.15,13,Materials and Methods p212,,1,
+EI0489,CD073,,,,0.15,14,Materials and Methods p212,,1,
+EI0490,CD074,4.472136,0.44,,0.395,1,Materials and Methods Study site and experimental nutrient treatments p545,455,0,
+EI0491,CD074,14.545455,0.44,,0.316,1,Materials and Methods Study site and experimental nutrient treatments p545,370,0,
+EI0492,CD074,6.181818,,,0.316,1,Materials and Methods Study site and experimental nutrient treatments p545,370,0,
+EI0493,CD074,8,0.16,,0.316,1,Materials and Methods Study site and experimental nutrient treatments p545,370,0,
+EI0494,CD075,,,,1.408,16,Materials and Methods Coral monitoring surveys,,1,
+EI0495,CD075,,,,1.936,22,Materials and Methods Coral monitoring surveys,,1,
+EI0496,CD075,,,,1.936,22,Materials and Methods Coral monitoring surveys,,1,
+EI0497,CD075,,,,1.936,22,Materials and Methods Coral monitoring surveys,,1,
+EI0498,CD075,,,,1.936,22,Materials and Methods Coral monitoring surveys,,1,
+EI0499,CD076,,,,1.5,10,Materials and Methods p24,,1,
+EI0500,CD076,,,,1.5,10,Materials and Methods p24,,1,
+EI0501,CD077,7.9,,,0.6,2,Materials and Methods p164,,1,
+EI0502,CD077,4.6,,,0.6,2,Materials and Methods p164,,1,
+EI0503,CD078,3.325799,,,0.33,5,Methods Sampling location and data collection,1232,1,
+EI0504,CD079,,,,0.45,10,Methods 2.2. Coral cover and disease surveys,,0,
+,CD080,,,,,,,164,1,
+EI0505,CD081,6.956522,,0.34,0.06,1,Figure 1,35,1,
+EI0506,CD081,9.782609,,0.56,0.04,1,Figure 1,18,1,
+EI0507,CD081,22.826087,,0.35,0.15,1,Figure 1,107,1,
+EI0508,CD081,15.434783,,0.43,0.14,1,Figure 1,185,1,
+EI0509,CD081,2.391304,,,0.05,1,Figure 1,143,1,
+EI0510,CD081,9.347826,,,0.04,1,Figure 1,137,1,
+EI0511,CD081,5.652174,,,0.06,1,Figure 1,118,1,
+EI0512,CD081,0,,,0.04,1,Figure 1,68,1,
+EI0513,CD081,2.391304,,,0.04,1,Figure 1,77,1,
+EI0514,CD081,4.782609,,,0.14,1,Figure 1,527,1,
+EI0515,CD082,2.702703,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0516,CD082,1.081081,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0517,CD082,5.945946,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0518,CD082,5.945946,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0519,CD082,1.621622,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0520,CD082,2.702703,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0521,CD082,2.702703,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0522,CD082,3.783784,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0523,CD082,7.027027,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0524,CD082,4.324324,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0525,CD082,3.243243,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0526,CD082,3.783784,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0527,CD082,8.108108,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0528,CD082,10.27027,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0529,CD082,8.648649,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0530,CD082,2.162162,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0531,CD082,2.162162,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0532,CD082,7.567568,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0533,CD082,7.567568,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0534,CD082,4.324324,,,,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0535,CD082,2.4,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0536,CD082,0.8,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0537,CD082,2.4,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0538,CD082,8,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0539,CD082,10.4,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0540,CD082,3.2,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0541,CD082,0.8,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0542,CD082,4,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0543,CD082,4.8,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0544,CD082,2.4,,,0.32,4,Materials and Methods Methods p223,,1,Depth intervals considered different sites
+EI0545,CD083,0,,,0.54,9,Table 1,,1,
+EI0546,CD083,5.196523,,,0.18,3,Table 1,,1,
+EI0547,CD083,20.305917,,,0.54,9,Table 1,,1,
+EI0548,CD083,1.839492,,,0.3,5,Table 1,,1,
+EI0549,CD083,1.504471,,,0.3,5,Table 1,,1,
+EI0550,CD083,12.506309,,,0.24,4,Table 1,,1,
+EI0551,CD084,,,,0.54,6,Methods Coral health and community composition surveys,,,
+EI0552,CD084,,,,0.27,3,Methods Coral health and community composition surveys,,,
+EI0553,CD084,,,,0.18,2,Methods Coral health and community composition surveys,,,
+EI0554,CD085,,,,0.18,3,Table 1,,1,
+EI0555,CD085,,,,0.18,3,Table 1,,1,
+EI0556,CD085,,,,0.18,3,Table 1,,1,
+EI0557,CD085,,,,0.18,3,Table 1,,1,
+EI0558,CD085,,,,0.18,3,Table 1,,1,
+EI0559,CD085,,,,0.18,3,Table 1,,1,
+EI0560,CD085,,,,0.18,3,Table 1,,1,
+EI0561,CD085,,,,0.18,3,Table 1,,1,
+EI0562,CD085,,,,0.18,3,Table 1,,1,
+EI0563,CD085,,,,0.18,3,Table 1,,1,
+EI0564,CD085,,,,0.18,3,Table 1,,1,
+EI0565,CD085,,,,0.18,3,Table 1,,1,
+EI0566,CD086,1.1390603,,,0.01,1,Figure 6b,,1,
+EI0567,CD086,0,,,0.01,1,Figure 6b,,1,
+EI0568,CD086,0.616991,,,0.01,1,Figure 6b,,1,
+EI0569,CD086,0,,,0.01,1,Figure 6b,,1,
+EI0570,CD086,1.4475558,,,0.01,1,Figure 6b,,1,
+EI0571,CD086,0.3796868,,,0.01,1,Figure 6b,,1,
+EI0572,CD086,0.8542952,,,0.01,1,Figure 6b,,1,
+EI0573,CD086,0.403172,,,0.01,1,Figure 6b,,1,
+EI0574,CD087,,,,0.075,1,Table 3,,0,
+EI0575,CD087,,,,0.075,1,Table 3,,0,
+EI0576,CD087,,,,0.075,1,Table 3,,0,
+EI0577,CD087,,,,0.075,1,Table 3,,0,
+EI0578,CD087,,,,0.075,1,Table 3,,0,
+EI0579,CD087,,,,0.075,1,Table 3,,0,
+EI0580,CD087,,,,0.075,1,Table 3,,0,
+EI0581,CD087,,,,0.075,1,Table 3,,0,
+EI0582,CD087,,,,0.075,1,Table 3,,0,
+EI0583,CD087,,,,0.075,1,Table 3,,0,
+EI0584,CD087,,,,0.075,1,Table 3,,0,
+EI0585,CD087,,,,0.075,1,Table 3,,0,
+EI0586,CD088,,,,0.72,9,Figure 1,,1,
+EI0587,CD088,,,,0.72,9,Figure 1,,1,
+EI0588,CD088,,,,0.72,9,Figure 1,,1,
+EI0589,CD088,,,,0.72,9,Figure 1,,1,
+EI0590,CD088,,,,0.72,9,Figure 1,,1,
+EI0591,CD088,,,,0.72,9,Figure 1,,0,
+EI0592,CD088,,,,0.72,9,Figure 1,,1,
+EI0593,CD089,,,,6.908,11,Methods p162,9204,1,
+,CD090,,,,,3,Materials and Methods Tumor frequency and distribution - field study p98,161,0,
+EI0594,CD091,5.294118,,,0.54,3,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0595,CD091,1.782993,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0596,CD091,0,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0597,CD091,12.352941,,,0.54,3,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0598,CD091,3.05656,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0599,CD091,1.273567,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0600,CD091,4.411765,,,0.54,3,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0601,CD091,4.58484,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0602,CD091,2.037707,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0603,CD091,7.5,,,0.54,3,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0604,CD091,3.311274,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0605,CD091,3.05656,,,0.18,1,Methods Sampling and data analysis p620,9398,1,Coral_N aggregated for all reefs
+EI0606,CD091,3.529412,,,0.54,3,Methods Sampling and data analysis p620,,1,
+EI0607,CD091,2.29242,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0608,CD091,1.52828,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0609,CD091,2.647059,,,0.54,3,Methods Sampling and data analysis p620,,1,
+EI0610,CD091,3.8207,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0611,CD091,2.29242,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0612,CD091,4.411765,,,0.54,3,Methods Sampling and data analysis p620,,1,
+EI0613,CD091,4.58484,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0614,CD091,3.565987,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0615,CD091,9.705882,,,0.54,3,Methods Sampling and data analysis p620,,1,
+EI0616,CD091,3.311274,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0617,CD091,0,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0618,CD091,6.617647,,,0.54,3,Methods Sampling and data analysis p620,,1,
+EI0619,CD091,2.801847,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0620,CD091,0,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0621,CD091,1.764706,,,0.54,3,Methods Sampling and data analysis p620,,1,
+EI0622,CD091,3.311274,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0623,CD091,0,,,0.18,1,Methods Sampling and data analysis p620,,1,
+EI0624,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0625,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0626,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0627,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0628,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0629,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0630,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0631,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0632,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0633,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0634,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0635,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0636,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0637,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0638,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0639,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0640,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0641,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0642,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0643,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0644,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0645,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0646,CD092,,,,7.8,26,Figure 1,160000,0,Coral_N aggregated for whole study
+EI0647,CD093,,,,0.072,3,Materials and Methods Method p5,86,0,
+EI0648,CD093,,,,0.156,6,Materials and Methods Method p5,533,0,
+EI0649,CD093,,,,0.072,3,Materials and Methods Method p5,153,0,
+EI0650,CD093,,,,0.156,17,Materials and Methods Method p5,253,0,
+EI0651,CD093,,,,0.3,3,Materials and Methods Method p5,212,0,
+EI0652,CD093,,,,0.942,3,Materials and Methods Method p5,68,0,
+EI0653,CD094,,,,0.12,1,Table 1,466,1,Mixed porites sp
+EI0654,CD094,,,,0.12,1,Table 1,124,1,Mixed porites sp
+EI0655,CD094,,,,0.12,1,Table 1,333,1,Mixed porites sp
+EI0656,CD094,,,,0.12,1,Table 1,335,1,Mixed porites sp
+EI0657,CD094,,,,0.12,1,Table 1,363,1,Mixed porites sp
+EI0658,CD094,,,,0.12,1,Table 1,582,1,Mixed porites sp
+EI0659,CD094,,,,0.12,1,Table 1,397,1,Mixed porites sp
+EI0660,CD094,,,,0.12,1,Table 1,322,1,Mixed porites sp
+EI0661,CD094,,,,0.12,1,Table 1,248,1,Mixed porites sp
+EI0662,CD094,,,,0.12,1,Table 1,351,1,Mixed porites sp
+EI0663,CD094,,,,0.12,1,Table 1,252,1,Mixed porites sp
+EI0664,CD094,,,,0.12,1,Table 1,670,1,Mixed porites sp
+EI0665,CD094,,,,0.12,1,Table 1,954,1,Mixed porites sp
+EI0666,CD094,,,,0.12,1,Table 1,190,1,Mixed porites sp
+EI0667,CD094,,,,0.12,1,Table 1,256,1,Mixed porites sp
+EI0668,CD094,,,,0.12,1,Table 1,551,1,Mixed porites sp
+EI0669,CD094,,,,0.12,1,Table 1,872,1,Mixed porites sp
+EI0670,CD094,,,,0.12,1,Table 1,611,1,Mixed porites sp
+EI0671,CD094,,,,0.12,1,Table 1,301,1,Mixed porites sp
+EI0672,CD094,,,,0.12,1,Table 1,351,1,Mixed porites sp
+EI0673,CD094,,,,0.12,1,Table 1,67,1,Mixed porites sp
+EI0674,CD094,,,,0.12,1,Table 1,288,1,Mixed porites sp
+EI0675,CD094,,,,0.12,1,Table 1,311,1,Mixed porites sp
+EI0676,CD094,,,,0.12,1,Table 1,335,1,Mixed porites sp
+EI0677,CD094,,,,0.12,1,Table 1,243,1,Mixed porites sp
+EI0678,CD094,,,,0.12,1,Table 1,223,1,Mixed porites sp
+EI0679,CD094,,,,0.12,1,Table 1,149,1,Mixed porites sp
+EI0680,CD094,,,,0.12,1,Table 1,380,1,Mixed porites sp
+EI0681,CD094,,,,0.12,1,Table 1,122,1,Mixed porites sp
+EI0682,CD094,,,,0.12,1,Table 1,230,1,Mixed porites sp
+EI0683,CD094,,,,0.12,1,Table 1,269,1,Mixed porites sp
+EI0684,CD094,,,,0.12,1,Table 1,314,1,Mixed porites sp
+EI0685,CD094,,,,0.12,1,Table 1,432,1,Mixed porites sp
+EI0686,CD094,,,,0.12,1,Table 1,392,1,Mixed porites sp
+EI0687,CD094,,,,0.12,1,Table 1,298,1,Mixed porites sp
+EI0688,CD094,,,,0.12,1,Table 1,229,1,Mixed porites sp
+EI0689,CD094,,,,0.12,1,Table 1,291,1,Mixed porites sp
+EI0690,CD094,,,,0.12,1,Table 1,238,1,Mixed porites sp
+EI0691,CD094,,,,0.12,1,Table 1,496,1,Mixed porites sp
+EI0692,CD094,,,,0.12,1,Table 1,328,1,Mixed porites sp
+EI0693,CD094,,,,0.12,1,Table 1,110,1,Mixed porites sp
+EI0694,CD094,,,,0.12,1,Table 1,223,1,Mixed porites sp
+EI0695,CD094,,,,0.12,1,Table 1,383,1,Mixed porites sp
+EI0696,CD094,,,,0.12,1,Table 1,701,1,Mixed porites sp
+EI0697,CD094,,,,0.12,1,Table 1,426,1,Mixed porites sp
+EI0698,CD094,,,,0.12,1,Table 1,196,1,Mixed porites sp
+EI0699,CD094,,,,0.12,1,Table 1,325,1,Mixed porites sp
+EI0700,CD094,,,,0.12,1,Table 1,52,1,Mixed porites sp
+EI0701,CD094,,,,0.12,1,Table 1,136,1,Mixed porites sp
+EI0702,CD094,,,,0.12,1,Table 1,121,1,Mixed porites sp
+EI0703,CD094,,,,0.12,1,Table 1,222,1,Mixed porites sp
+EI0704,CD094,,,,0.12,1,Table 1,225,1,Mixed porites sp
+EI0705,CD094,,,,0.12,1,Table 1,104,1,Mixed porites sp
+EI0706,CD094,,,,0.12,1,Table 1,149,1,Mixed porites sp
+EI0707,CD095,,,,0.302,1,Table 1,1344,1,
+EI0708,CD095,,,,0.343,1,Table 1,566,1,
+EI0709,CD096,,,,0.03,1,Materials and Methods Study site and sample collection,419,0,
+EI0710,CD096,,,,0.03,1,Materials and Methods Study site and sample collection,336,0,
+EI0711,CD097,,,,114,456,Results and Discussion p240,1492,0,Only included sites that had A palmata
+EI0712,CD097,,,,114,456,Results and Discussion p240,1000,0,Only included sites that had A palmata
+EI0713,CD099,,,,0.70791,3,Table 1,,0,
+EI0714,CD099,,,,0.70791,3,Table 1,,0,
+EI0715,CD099,,,,0.70791,3,Table 1,,0,
+EI0716,CD099,,,,0.70791,3,Table 1,,0,
+EI0717,CD099,,,,0.70791,3,Table 1,,0,
+EI0718,CD099,,,,0.70791,3,Table 1,,0,
+EI0719,CD099,,,,0.70791,3,Table 1,,0,
+EI0720,CD099,,,,0.70791,3,Table 1,,0,
+EI0721,CD099,,,,0.70791,3,Table 1,,0,
+EI0722,CD099,,,,0.70791,3,Table 1,,0,
+EI0723,CD099,,,,0.70791,3,Table 1,,0,
+EI0724,CD099,,,,0.70791,3,Table 1,,0,
+EI0725,CD099,,,,0.70791,3,Table 1,,0,
+EI0726,CD099,,,,0.70791,3,Table 1,,0,
+EI0727,CD099,,,,0.70791,3,Table 1,,0,
+EI0728,CD099,,,,0.70791,3,Table 1,,0,
+EI0729,CD098,,,,0.014,1,Figure 1,,1,
+EI0730,CD098,,,,0.014,1,Figure 1,,1,
+EI0731,CD100,,,,0.6,8,Materials and Methods p160,2761,1,Coral_N aggregated from whole study
+EI0732,CD100,,,,0.6,8,Materials and Methods p160,2761,1,Coral_N aggregated from whole study
+EI0733,CD100,,,,0.6,8,Materials and Methods p160,2761,1,Coral_N aggregated from whole study
+EI0734,CD100,,,,0.6,8,Materials and Methods p160,2761,1,Coral_N aggregated from whole study
+EI0735,CD101,,,,0.08,1,Figure 1,,1,
+EI0736,CD101,,,,0.08,1,Figure 1,,1,
+EI0737,CD101,,,,0.08,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.24,2,"Figure 5, Figure 1",,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+,Meyers & Raymundo 2009,,,,0.12,1,Figure 1,,1,
+EI0738,CD102,52.41379,,,,1,Figure 1a,,1,
+EI0739,CD102,114.48276,,,,1,Figure 1a,,1,
+EI0740,CD102,0,,,,1,Figure 1a,,1,
+EI0741,CD102,22.06897,,,,1,Figure 1a,,1,
+EI0742,CD102,22.06897,,,,1,Figure 1a,,1,
+EI0743,CD102,0,,,,1,Figure 1a,,1,
+EI0744,CD102,0,,,,1,Figure 1a,,1,
+EI0745,CD102,0,,,,1,Figure 1a,,1,
+EI0746,CD102,33.10345,,,,1,Figure 1a,,1,
+EI0747,CD102,0,,,,1,Figure 1a,,1,
+EI0748,CD102,0,,,,1,Figure 1a,,1,
+EI0749,CD102,0,,,,1,Figure 1a,,1,
+EI0750,CD102,0,,,,1,Figure 1a,,1,
+EI0751,CD102,0,,,,1,Figure 1a,,1,
+EI0752,CD102,17.93103,,,,1,Figure 1a,,1,
+EI0753,CD102,15.17241,,,,1,Figure 1a,,1,
+EI0754,CD102,23.44828,,,,1,Figure 1a,,1,
+EI0755,CD102,24.82759,,,,1,Figure 1a,,1,
+EI0756,CD102,23.44828,,,,1,Figure 1a,,1,
+EI0757,CD102,6.666667,,,,1,Figure 2a,,1,
+EI0758,CD102,10.980392,,,,1,Figure 2a,,1,
+EI0759,CD102,6.666667,,,,1,Figure 2a,,1,
+EI0760,CD102,9.019608,,,,1,Figure 2a,,1,
+EI0761,CD102,18.431373,,,,1,Figure 2a,,1,
+EI0762,CD102,0,,,,1,Figure 2a,,1,
+EI0763,CD102,63.529412,,,,1,Figure 2a,,1,
+EI0764,CD102,16.862745,,,,1,Figure 2a,,1,
+EI0765,CD102,0,,,,1,Figure 2a,,1,
+EI0766,CD102,0,,,,1,Figure 2a,,1,
+EI0767,CD102,8.627451,,,,1,Figure 2a,,1,
+EI0768,CD102,0,,,,1,Figure 2a,,1,
+EI0769,CD102,7.45098,,,,1,Figure 2a,,1,
+EI0770,CD102,0,,,,1,Figure 2a,,1,
+EI0771,CD102,0,,,,1,Figure 2a,,1,
+EI0772,CD102,0,,,,1,Figure 2a,,1,
+EI0773,CD102,11.111111,,,,1,Figure 3a,,1,
+EI0774,CD102,3.777778,,,,1,Figure 3a,,1,
+EI0775,CD102,2,,,,1,Figure 3a,,1,
+EI0776,CD102,7.333333,,,,1,Figure 3a,,1,
+EI0777,CD102,2.444444,,,,1,Figure 3a,,1,
+EI0778,CD102,1.777778,,,,1,Figure 3a,,1,
+EI0779,CD102,13.555556,,,,1,Figure 3a,,1,
+EI0780,CD102,5.555556,,,,1,Figure 3a,,1,
+EI0781,CD102,5.111111,,,,1,Figure 3a,,1,
+EI0782,CD102,0,,,,1,Figure 3a,,1,
+EI0783,CD102,10.222222,,,,1,Figure 3a,,1,
+EI0784,CD102,0,,,,1,Figure 3a,,1,
+EI0785,CD102,18.666667,,,,1,Figure 3a,,1,
+EI0786,CD102,0,,,,1,Figure 3a,,1,
+EI0787,CD102,0,,,,1,Figure 3a,,1,
+EI0788,CD102,0,,,,1,Figure 3a,,1,
+EI0789,CD102,24.444444,,,,1,Figure 3a,,1,
+EI0790,CD102,1.333333,,,,1,Figure 3a,,1,
+EI0791,CD102,4.222222,,,,1,Figure 3a,,1,
+EI0792,CD102,15.254237,,,,1,Figure 4a,,1,
+EI0793,CD102,9.491525,,,,1,Figure 4a,,1,
+EI0794,CD102,5.423729,,,,1,Figure 4a,,1,
+EI0795,CD102,13.220339,,,,1,Figure 4a,,1,
+EI0796,CD102,19.661017,,,,1,Figure 4a,,1,
+EI0797,CD102,8.135593,,,,1,Figure 4a,,1,
+EI0798,CD102,7.835052,,,,1,Figure 5a,,1,
+EI0799,CD102,3.71134,,,,1,Figure 5a,,1,
+EI0800,CD102,2.268041,,,,1,Figure 5a,,1,
+EI0801,CD102,3.71134,,,,1,Figure 5a,,1,
+EI0802,CD102,3.917526,,,,1,Figure 5a,,1,
+EI0803,CD102,0,,,,1,Figure 5a,,1,
+EI0804,CD103,,,,4.32,18,Results p261,96148,1,
+EI0805,CD103,,,,4.32,18,Results p261,91552,1,
+EI0806,CD104,8.660254,,,0.3,1,Materials and Methods Study site and field surveys p2796,485,1,Coral_N aggregated from whole study
+EI0807,CD105,0.5436931,,,0.3,1,Figure 2,,1,
+EI0808,CD105,0.7767044,,,0.3,1,Figure 2,,1,
+EI0809,CD105,3.7670163,,,0.3,1,Figure 2,,1,
+EI0810,CD105,8.7379245,,,0.3,1,Figure 2,,1,
+EI0811,CD105,0.8932101,,,0.3,1,Figure 2,,1,
+EI0812,CD105,0.9885833,,,0.6,2,Figure 2,,1,
+EI0813,CD105,0.5492129,,,0.6,2,Figure 2,,1,
+EI0814,CD105,0.5492129,,,0.6,2,Figure 2,,1,
+EI0815,CD105,1.9222453,,,0.6,2,Figure 2,,1,
+EI0816,CD105,2.0870092,,,0.6,2,Figure 2,,1,
+EI0817,CD105,2.1419305,,,0.6,2,Figure 2,,1,
+EI0818,CD105,0.1647639,,,0.6,2,Figure 2,,1,
+EI0819,CD105,0.4660226,,,0.3,1,Figure 2,,1,
+EI0820,CD105,0.3844491,,,0.6,2,Figure 2,,1,
+EI0821,CD105,0.4942917,,,0.6,2,Figure 2,,1,
+EI0822,CD105,1.0435046,,,0.6,2,Figure 2,,1,
+EI0823,CD105,2.0320879,,,0.6,2,Figure 2,,1,
+EI0824,CD105,0.6213635,,,0.3,1,Figure 2,,1,
+EI0825,CD105,1.7087497,,,0.3,1,Figure 2,,1,
+EI0826,CD105,5.7087773,,,0.3,1,Figure 2,,1,
+EI0827,CD105,8.0000553,,,0.3,1,Figure 2,,1,
+EI0828,CD105,0.5048579,,,0.3,1,Figure 2,,1,
+EI0829,CD105,0.933662,,,0.6,2,Figure 2,,1,
+EI0830,CD105,0.933662,,,0.6,2,Figure 2,,1,
+EI0831,CD105,2.0870092,,,0.6,2,Figure 2,,1,
+EI0832,CD105,1.5927175,,,0.6,2,Figure 2,,1,
+EI0833,CD105,2.0320879,,,0.6,2,Figure 2,,1,
+EI0834,CD105,1.3730324,,,0.6,2,Figure 2,,1,
+EI0835,CD105,0.1098426,,,0.6,2,Figure 2,,1,
+EI0836,CD105,0.6601987,,,0.3,1,Figure 2,,1,
+EI0837,CD105,0.6041342,,,0.6,2,Figure 2,,1,
+EI0838,CD105,1.7574814,,,0.6,2,Figure 2,,1,
+EI0839,CD105,1.1533472,,,0.6,2,Figure 2,,1,
+EI0840,CD105,1.3181111,,,0.6,2,Figure 2,,1,
+EI0841,CD106,1.1452381,,,3,10,Materials and Methods 2.1 White syndrome prevalence,,1,
+EI0842,CD106,0.8962733,,,3,10,Materials and Methods 2.1 White syndrome prevalence,,1,
+EI0843,CD107,,,,2.7,9,Materials and Methods Susceptibility to coral disease,3078,0,Coral_N includes both morphs
+EI0844,CD107,,,,2.7,9,Materials and Methods Susceptibility to coral disease,3078,0,Coral_N includes both morphs
+EI0845,CD107,,,,0.5,10,Materials and Methods Susceptibility to coral disease,1370,0,Coral_N includes both morphs
+EI0846,CD107,,,,0.5,10,Materials and Methods Susceptibility to coral disease,1370,0,Coral_N includes both morphs
+EI0847,CD108,,,,1.2,10,Table 1,1030,0,Coral_N aggregated over entire sampling year
+EI0848,CD108,,,,1.2,10,Table 1,1030,0,Coral_N aggregated over entire sampling year
+EI0849,CD108,,,,1.2,10,Table 1,1030,0,Coral_N aggregated over entire sampling year
+EI0850,CD108,,,,0.6,5,Table 1,312,0,Coral_N aggregated over entire sampling year
+EI0851,CD108,,,,0.6,5,Table 1,312,0,Coral_N aggregated over entire sampling year
+EI0852,CD108,,,,0.6,5,Table 1,312,0,Coral_N aggregated over entire sampling year
+EI0853,CD108,,,,0.84,7,Table 1,247,0,Coral_N aggregated over entire sampling year
+EI0854,CD108,,,,0.84,7,Table 1,247,0,Coral_N aggregated over entire sampling year
+EI0855,CD108,,,,0.84,7,Table 1,247,0,Coral_N aggregated over entire sampling year
+EI0856,CD108,,,,0.72,6,Table 1,292,0,Coral_N aggregated over entire sampling year
+EI0857,CD108,,,,0.72,6,Table 1,292,0,Coral_N aggregated over entire sampling year
+EI0858,CD108,,,,0.72,6,Table 1,292,0,Coral_N aggregated over entire sampling year
+EI0859,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0860,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0861,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0862,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0863,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0864,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0865,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0866,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0867,CD109,,,,0.48,2,Materials and Methods p814,4256,1,Coral_N aggregated from whole study
+EI0868,CD110,1.6654335,,,0.06,1,Materials and Methods Sampling sites and environmental parameters p194,,1,massive Porites species
+EI0869,CD110,0.3330867,,,0.06,1,Materials and Methods Sampling sites and environmental parameters p194,,1,massive Porites species
+EI0870,CD110,2.9977802,,,0.06,1,Materials and Methods Sampling sites and environmental parameters p194,,1,massive Porites species
+EI0871,CD110,0.3330867,,,0.06,1,Materials and Methods Sampling sites and environmental parameters p194,,1,massive Porites species
+EI0872,CD110,1.6654335,,,0.06,1,Materials and Methods Sampling sites and environmental parameters p194,,1,massive Porites species
+EI0873,CD110,1.3323468,,,0.06,1,Materials and Methods Sampling sites and environmental parameters p194,,1,massive Porites species
+EI0874,CD111,2.598076,,,1.08,18,Methods,9989,1,coral_n aggregated over whole study
+EI0875,CD111,18.186533,,,1.08,18,Methods,9989,1,coral_n aggregated over whole study
+EI0876,CD111,8.443748,,,1.08,18,Methods,9989,1,coral_n aggregated over whole study
+EI0877,CD111,1.299038,,,1.08,18,Methods,9989,1,coral_n aggregated over whole study
+EI0878,CD111,2.598076,,,1.08,18,Methods,9989,1,coral_n aggregated over whole study
+EI0879,CD111,3.247595,,,1.08,18,Methods,9989,1,coral_n aggregated over whole study
+EI0880,CD111,1.299038,,,1.08,18,Methods,9989,1,coral_n aggregated over whole study
+EI0881,CD112,0.4578046,,,4.4,22,Figure 6,,,
+EI0882,CD112,0.5498468,,,3,15,Figure 6,,,
+EI0883,CD112,0.5812186,,,2.2,11,Figure 6,,,
+EI0884,CD112,0.5977016,,,1.2,6,Figure 6,,,
+EI0885,CD112,0.4380075,,,2.4,12,Figure 6,,,
+EI0886,CD112,0.5789707,,,1.8,9,Figure 6,,,
+EI0887,CD112,0.5318089,,,3.8,19,Figure 6,,,
+EI0888,CD112,0.5756209,,,3,15,Figure 6,,,
+EI0889,CD112,0.4578046,,,4.4,22,Figure 6,,,
+EI0890,CD113,,,,13.5,1,Material and Methods p7,92,0,
+EI0891,CD113,,,,13.5,1,Material and Methods p7,69,0,
+EI0892,CD113,,,,13.5,1,Material and Methods p7,52,0,
+EI0893,CD113,,,,13.5,1,Material and Methods p7,46,0,
+EI0894,CD113,,,,13.5,1,Material and Methods p7,42,0,
+EI0895,CD113,,,,13.5,1,Material and Methods p7,29,0,
+EI0896,CD113,,,,13.5,1,Material and Methods p7,21,0,
+EI0897,CD113,,,,13.5,1,Material and Methods p7,9,0,
+EI0898,CD113,,,,13.5,1,Material and Methods p7,3,0,
+EI0899,CD113,,,,13.5,1,Material and Methods p7,3,0,
+EI0900,CD113,,,,13.5,1,Material and Methods p7,2,0,
+EI0901,CD113,,,,13.5,1,Material and Methods p7,1,0,
+EI0902,CD113,,,,13.5,1,Material and Methods p7,2,0,
+EI0903,CD114,,,,0.06,1,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",53,1,
+EI0904,CD114,,,,1.08,18,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",,1,
+EI0905,CD114,,,,1.08,18,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",,1,
+EI0906,CD114,,,,0.06,1,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",,1,
+EI0907,CD114,,,,0.06,1,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",,1,
+EI0908,CD114,,,,0.06,1,"Methods Disease prevalence surveys, lesion progression monitoring and sampling",,1,
+EI0909,CD115,,,,0.24,1,Figure 1,2910,1,Coral_N aggregated from whole study
+EI0910,CD115,,,,0.24,1,Figure 1,2910,1,Coral_N aggregated from whole study
+EI0911,CD115,,,,0.24,1,Figure 1,2910,1,Coral_N aggregated from whole study
+EI0912,CD116,,,,9.42,10,Materials and Methods Surveys p34,11092,1,
+EI0913,CD116,,,,10.362,10,Materials and Methods Surveys p34,13973,1,
+EI0914,CD117,,,,11.8,12,Table 1,51444,1,
+EI0915,CD117,,,,2,12,Table 1,,1,
+EI0916,CD117,,,,2,12,Table 1,,1,
+EI0917,CD117,,,,2,12,Table 1,,1,
+EI0918,CD117,,,,2,12,Table 1,,1,
+EI0919,CD117,,,,2,12,Table 1,,1,
+EI0920,CD117,,,,2,12,Table 1,,1,
+EI0921,CD118,,,,0.48,4,Material and Methods Survey technique p78,474,1,
+EI0922,CD118,,,,0.48,4,Material and Methods Survey technique p78,474,1,
+EI0923,CD118,,,,0.48,4,Material and Methods Survey technique p78,474,1,
+EI0924,CD119,,,,0.255,2,Materials and Methods p76,1266,1,
+EI0925,CD119,,,,0.15,1,Materials and Methods p76,513,1,
+EI0926,CD119,,,,0.075,1,Materials and Methods p76,91,1,
+EI0927,CD120,,,,1.8,6,Results and Disucssions p188,23869,1,
+EI0928,CD121,,,,0.45,1,p640,46,0,
+EI0929,CD121,,,,0.45,1,p640,44,0,
+EI0930,CD122,,,,760.324,29,Figure 1,8473,0,
+EI0931,CD123,,,,0.7,14,Results Site-specific surveys: video transects p7,,1,
+EI0932,CD123,,,,0.7,14,Results Site-specific surveys: video transects p7,,1,
+EI0933,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0934,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0935,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0936,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0937,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0938,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0939,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0940,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0941,CD021,,,,12.833,1,Methods Prevalence and incidence of BBD and water temperature p53,966,0,
+EI0942,CD023,,,,1,50,Materials and Methods p68,2166,1,
+EI0943,CD023,,,,1,50,Materials and Methods p68,,1,
+EI0944,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0945,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0946,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0947,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0948,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0949,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0950,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0951,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0952,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0953,CD023,,,,15.7,50,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0954,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0955,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0956,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0957,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0958,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0959,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0960,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0961,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0962,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0963,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0964,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0965,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0966,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0967,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0968,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0969,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0970,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0971,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0972,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0973,CD023,,,,0.2,10,Materials and Methods p68,,0,Montastraea annularis sp complex
+EI0974,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0975,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0976,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0977,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0978,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0979,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0980,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0981,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI0982,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI0983,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI0984,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI0985,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI0986,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI0987,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI0988,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0989,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0990,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0991,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0992,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0993,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0994,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0995,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0996,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0997,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0998,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI0999,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI1000,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI1001,CD005,,,,17.105,55,Methods Observational data p1324,,1,
+EI1002,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI1003,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI1004,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI1005,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI1006,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI1007,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI1008,CD005,,,,17.105,55,Methods Observational data p1324,,0,
+EI1009,CD024,,0.25490196,1.3961555,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1010,CD024,22.37724,0.62745098,4.8602144,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1011,CD024,43.03315,0.25490196,1.9744621,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1012,CD024,87.78762,0.17647059,1.3669353,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1013,CD024,43.03315,0.25490196,1.9744621,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1014,CD024,46.4758,0.41176471,3.1895157,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1015,CD024,27.54121,0.43137255,3.3413974,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1016,CD024,22.37724,0.21568627,1.6706987,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1017,CD024,30.98387,0.33333333,2.5819889,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1018,CD024,63.68906,0.21568627,1.6706987,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
+EI1019,CD024,61.96773,0.09803922,0.7594085,18.84,15,Materials and Methods p920,5564,1,Coral_N aggregated for whole study
