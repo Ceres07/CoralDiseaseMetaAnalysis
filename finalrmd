@@ -1,0 +1,1021 @@
+---
+title: "BVMA analysis"
+output: html_document
+---
+```{r}
+library(ape)
+library(rstan)
+library(rotl)
+library(brms)
+library(tidyr)
+library(tidyverse)
+library(marginaleffects)
+library(tidybayes)
+library(cmdstanr)
+library(ggtree)
+library(aplot)
+```
+
+##Import phylogeny
+```{r}
+##Family level tree (for graphing)
+phylo <- ape::read.tree("~/Downloads/doi_10.5061_dryad.08kprr54m__v6/3_Ancestral_reconstruction_and_diversification_analyses_from_Blaimer_et_al_Hymenoptera_diversification/3.4_Medusa/TopCfamily.tre")
+
+realtree <- keep.tip(phylo, c("Apidae", "Andrenidae", "Vespidae", "Colletidae", "Halictidae", "Megachilidae", "Scoliidae", "Melittidae", "Crabronidae", "Formicidae"))
+
+bqcvtree <- keep.tip(phylo, c("Apidae", "Andrenidae", "Vespidae", "Colletidae", "Halictidae", "Megachilidae",  "Melittidae", "Formicidae"))
+
+##Species level tree (for analysis)
+speciesphylo <- ape::read.tree("~/Downloads/species.nwk")
+
+speciestips <- speciesphylo[["tip.label"]] ##Just getting a list of tips 
+speciestipsdf <- as.data.frame(speciestips)
+
+##Filtering out unused tips 
+speciestree <- keep.tip(speciesphylo, c(
+"Anthophora", 
+"Aphaenogaster_texana", 
+"Apis_cerana",	
+"Apis_mellifera",
+"Bombus_humilis",
+"Bombus_lapidarius", 	
+"Brachymyrmex_depilis", 
+"Camponotus_ulcerosus", 
+"Colletes_seminitidus", 
+"Dasypoda_visnaga", 
+"Epeolus_variegatus", 
+"Eucera_pruinosa", 
+"Forelius_chalybaeus", 
+"Formica_neogagates", 
+"Halictus_ligatus", 
+"Heriades_crucifera", 
+"Hylaeus_dilatatus", 
+"Lasioglossum_malachurum", 
+"Linepithema_humile", 
+"Lithurgus_scabrosus", 
+"Megachile_albisecta", 
+"Megachile_sculpturalis",
+"Melandrena", 
+"Melipona_colimana", 
+"Melissodes_desponsus", 
+"Melitturga", 
+"Messor_concolor", 
+"nomada_distinguenda",
+"Osmia_lignaria", 
+"Vespula", 	
+"Pheidole_dispar", 
+"Pogonomyrmex_colei", 
+"Polistes", 
+"Pseudoanthidium_scapulare", 
+"Pseudomyrmex_tenuis", 
+"Scaptotrigona_mexicana", 
+"Solenopsis_invicta", 
+"Stelis", 
+"Systropha_curvicornis", 
+"Tapinoma_opacum", 
+"Trigona_fulviventris", 
+"Vespula", 
+"Xylocopa_iris", 
+"Xylocopa_micans", 
+"Xylocopa_violacea", 
+"Xylocopa_virginica"))
+
+
+
+##Storing the full unique species list from OG BVMAdataset
+specieslist <- c("Ancistrocerus_auctus",	
+"Andrena", 
+"Anthidium_manicatum", 	
+"Anthidium", 
+"Anthophora", 
+"Aphaenogaster_texana", 
+"Apis_cerana",	
+"Apis_mellifera",
+"Apis_mellifera_carnica",
+"Bombus_atratus",
+"Bombus_dahlbomii",
+"Bombus_ephippiatus",
+"Bombus_griseocollis",
+"Bombus_hortorum",
+"Bombus_humilis",
+"Bombus_impatiens",
+"Bombus_jonellus", 
+"Bombus_lapidarius", 	
+"Bombus_lucorum",
+"Bombus_monticola",
+"Bombus_pascuorum",
+"Bombus_pensylvanicus",
+"Bombus_pratorum", 
+"Bombus_ruderatus", 
+"Bombus", 
+"Bombus_steindachneri", 
+"Bombus_sylvarum", 	
+"Bombus_terrestris", 
+"Brachymyrmex", 
+"Camponotus", 
+"Ceratina", 
+"Cerceris", 
+"Chelostoma", 
+"Colletes", 
+"Crematogaster", 
+"Dasypoda", 
+"Epeolus", 
+"Eucera_pruinosa", 
+"Eucera", 
+"Forelius", 
+"Formica", 
+"Halictidae", 
+"Halictus_fulvipes", 
+"Halictus_ligatus", 
+"Halictus_maculatus", 
+"Halictus_patellatus", 
+"Halictus_poeyi", 
+"Halictus_simplex", 
+"Halictus", 
+"Halictus_tectus", 
+"Heriades", 
+"Hoplitis_adunca", 
+"Hoplitis", 
+"Hylaeus_dilatatus", 
+"Hylaeus", 
+"Hylaeus_variegatus", 
+"Lasioglossum_crassepunctatum", 
+"Lasioglossum_malachurum", 
+"Lasioglossum_morio", 
+"Lasioglossum_nigripes", 
+"Lasioglossum_pauperatum", 
+"Lasioglossum_pauxillum", 
+"Lasioglossum", 
+"Linepithema_humile", 
+"Lithurgus", 
+"Megachile_albisecta", 
+"Megachile_scupturalis",
+"Megachile", 
+"Megachile_xylopoides", 
+"Megachilidae", 
+"Melandrena", 
+"Melipona_colimana", 
+"Melissodes", 
+"Melitturga", 
+"Messor_concolor", 
+"nannotrigona_perliapoides", 
+"nomada_distinguenda",
+"nomiapis", 
+"nylanderia", 
+"Osmia", 
+"Vespula", 	
+"Pheidole", 
+"Pogonomyrmex", 
+"Polistes_dominula", 
+"Polistes_nimpha", 	
+"Polistes", 
+"Pseudoanthidium", 
+"Pseudomyrmex", 
+"Scaptotrigona_mexicana", 
+"Scolia_flavifrons", 
+"Solenopsis_invicta", 
+"Stelis", 
+"Svastra_obliqua", 
+"Systropha", 
+"Tapinoma", 
+"Trigona_fulviventris", 
+"Vespa_orientalis", 
+"Vespula_germanica", 
+"Vespula", 
+"Vespula_velutina", 	
+"Vespula_vulgaris", 
+"Xylocopa_iris", 
+"Xylocopa_micans", 
+"Xylocopa", 
+"Xylocopa_violacea", 
+"Xylocopa_virginica")
+```
+
+##Loading and formatting 
+```{r}
+BVMAprimarydataset <- read.csv("~/Desktop/BVMAprimarydataset.csv", stringsAsFactors=TRUE)
+BVMAprimarydataset$bqcv <- as.numeric(BVMAprimarydataset$bqcv)
+BVMAprimarydataset$bqcvreplicative <- as.numeric(BVMAprimarydataset$bqcvreplicative)
+BVMAprimarydataset$dwv <- as.numeric(BVMAprimarydataset$dwv)
+BVMAprimarydataset$dwvreplicative <- as.numeric(BVMAprimarydataset$dwvreplicative)
+BVMAprimarydataset$abpv <- as.numeric(BVMAprimarydataset$abpv)
+BVMAprimarydataset$abpvreplicative <- as.numeric(BVMAprimarydataset$abpv)
+BVMAprimarydataset$sbpv <- as.numeric(BVMAprimarydataset$sbpv)
+BVMAprimarydataset$sbpvreplicative <- as.numeric(BVMAprimarydataset$sbpvreplicative)
+BVMAprimarydataset$cbpv <- as.numeric(BVMAprimarydataset$cbpv)
+BVMAprimarydataset$cbpvreplicative <- as.numeric(BVMAprimarydataset$cbpvreplicative)
+BVMAprimarydataset$kbv <- as.numeric(BVMAprimarydataset$kbv)
+BVMAprimarydataset$kbvreplicative <- as.numeric(BVMAprimarydataset$kbvreplicative)
+BVMAprimarydataset$iapv <- as.numeric(BVMAprimarydataset$iapv)
+BVMAprimarydataset$iapvreplicative <- as.numeric(BVMAprimarydataset$iapvreplicative)
+BVMAprimarydataset$lsv <- as.numeric(BVMAprimarydataset$lsv)
+BVMAprimarydataset$lsvreplicative <- as.numeric(BVMAprimarydataset$lsvreplicative)
+BVMAprimarydataset$sbv <- as.numeric(BVMAprimarydataset$sbv)
+BVMAprimarydataset$sbvreplicative <- as.numeric(BVMAprimarydataset$sbvreplicative)
+BVMAprimarydataset$nosema <- as.numeric(BVMAprimarydataset$nosema)
+```
+
+##Creating phylogenetic matrix 
+```{r}
+A <- ape::vcv.phylo(realtree)
+B <- ape::vcv.phylo(speciesphylo)
+```
+
+#Data probing
+```{r}
+no.species <- count(BVMAprimarydataset$species) ##how many times each species appears 
+
+##the most clunky way to find how many data points for each virus 
+bqcv <- na.omit(BVMAprimarydataset$bqcv)
+dwv <- na.omit(BVMAprimarydataset$dwv)
+abpv <- na.omit(BVMAprimarydataset$abpv)
+abpv <- na.omit(BVMAprimarydataset$abpv)
+sbpv <- na.omit(BVMAprimarydataset$sbpv)
+cbpv <- na.omit(BVMAprimarydataset$cbpv)
+kbv <- na.omit(BVMAprimarydataset$kbv)
+iapv <- na.omit(BVMAprimarydataset$iapv)
+lsv <- na.omit(BVMAprimarydataset$lsv)
+sbv <- na.omit(BVMAprimarydataset$sbv)
+nosema <- na.omit(BVMAprimarydataset$nosema)
+
+
+```
+
+##Making B positive definite 
+```{r}
+diag(B) <- diag(B) + 0.000001
+```
+
+##Always something wrong (Neat 'outersect' function to find whats missing between two df's)
+```{r}
+outersect <- function(x, y) {
+  sort(c(x[!x%in%y],
+         y[!y%in%x]))
+}
+
+outersect(speciestree[["tip.label"]], dwvDataNA$timetree)
+
+
+outersect(dwvData$apisDWV, prevalenceData$apisDWV)
+
+unique(dwvData$timetree)
+
+intersect(speciestree[["tip.label"]], subBVMA$timetree)
+
+speciestree[["tip.label"]]
+```
+
+##Apis viral prevelance predictor 
+```{r}
+##apis virus load for all viruses (dwv)
+BVMAprimarydataset <- BVMAprimarydataset %>% mutate(site = factor(ifelse(is.na(site), 1, site))) # add site 1 to missing sites and code as a factor
+
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisDWV = mean(dwv)/mean(individualstested), var = 
+sqrt(apisDWV*(1-apisDWV)*mean(individualstested)), apisDWVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+dwvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##bqcv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisBQCV = mean(bqcv)/mean(individualstested), var = 
+sqrt(apisBQCV*(1-apisBQCV)*mean(individualstested)), apisBQCVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+bqcvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+ggsave("apisBQCVplot.jpg", plot = apisBQCVplot)
+
+##abpv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisABPV = mean(abpv)/mean(individualstested), var = 
+sqrt(apisABPV*(1-apisABPV)*mean(individualstested)), apisABPVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+abpvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##sbpv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisSBPV = mean(sbpv)/mean(individualstested), var = 
+sqrt(apisSBPV*(1-apisSBPV)*mean(individualstested)), apisSBPVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+sbpvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##cbpv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisCBPV = mean(cbpv)/mean(individualstested), var = 
+sqrt(apisCBPV*(1-apisCBPV)*mean(individualstested)), apisCBPVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+cbpvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##kbv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisKBV = mean(kbv)/mean(individualstested), var = 
+sqrt(apisKBV*(1-apisKBV)*mean(individualstested)), apisKBVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+kbvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##iapv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisIAPV = mean(iapv)/mean(individualstested), var = 
+sqrt(apisIAPV*(1-apisIAPV)*mean(individualstested)), apisIAPVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+iapvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##lsv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisLSV = mean(lsv)/mean(individualstested), var = 
+sqrt(apisLSV*(1-apisLSV)*mean(individualstested)), apisLSVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+lsvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##sbv
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisSBV = mean(sbv)/mean(individualstested), var = 
+sqrt(apisSBV*(1-apisSBV)*mean(individualstested)), apisSBVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+sbvData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+
+##nosema
+apisLoad <- BVMAprimarydataset %>% filter(species == "Apis mellifera") %>% group_by(study, site) %>% 
+reframe(apisNOSEMA = mean(nosema)/mean(individualstested), var = 
+sqrt(apisNOSEMA*(1-apisNOSEMA)*mean(individualstested)), apisIAPVsd = ifelse(var == 0, 0.001, var)) # calculate mean apisDWV and sd for each study and site, replace with NA if sd = 0 
+nosemaData <- BVMAprimarydataset %>% filter(species != "Apis mellifera") %>% 
+  left_join(apisLoad) %>%
+    mutate(obs = 1:n())
+```
+
+##Plotting apis predictor across all models 
+```{r}
+virus <- pivot_longer(BVMAprimarydataset, cols = c("dwv", "bqcv", "abpv", "sbpv", "cbpv", "kbv", "iapv", "lsv", "sbv", "nosema"), names_to = "virus") 
+View(virus)
+
+prevalence <- virus %>% filter(species == "Apis mellifera") %>% group_by(study, site, virus) %>% 
+reframe(apisVIRUS = mean(value)/mean(individualstested)) 
+
+prevalence2 <- virus %>% filter(!species == "Apis mellifera") %>% group_by(study, site, virus) %>% 
+reframe(otherVIRUS = mean(value)/mean(individualstested)) 
+  
+realdeal <- left_join(prevalence, prevalence2, by = c("study", "site", "virus"))
+
+ggplot(realdeal, aes(apisVIRUS, otherVIRUS, color = virus)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", se = FALSE) + 
+  xlab("Virus prevalence in A. mellifera") + 
+  ylab("Virus prevalence in insects")
+
+##Virus prev by family 
+familytree <- ggtree(realtree)
+
+virus %>% filter(!value == c(0, NA)) %>% count(virus, by = value) %>% summarise(sum(n), by = virus)
+
+familyvirus <- virus %>% filter(!species == "Apis mellifera") %>% ggplot(aes(value, family, colour = virus)) + geom_bar(stat = "identity")
+
+familyvirus %>% insert_left(familytree)
+```
+
+
+##The model doesnt like NA values in phylogenetic variable 
+```{r}
+values <- c("")
+subBVMA <- BVMAprimarydataset[!(BVMAprimarydataset$timetree %in% values), ]
+
+dwvDataNA <- dwvData[!(dwvData$timetree %in% values), ]
+
+bqcvDataNA <- bqcvData[!(bqcvData$timetree %in% values), ]
+
+abpvDataNA <- abpvData[!(abpvData$timetree %in% values), ]
+
+sbpvDataNA <- sbpvData[!(sbpvData$timetree %in% values), ]
+
+cbpvDataNA <- cbpvData[!(cbpvData$timetree %in% values), ]
+
+kbvDataNA <- kbvData[!(kbvData$timetree %in% values), ]
+
+iapvDataNA <- iapvData[!(iapvData$timetree %in% values), ]
+
+lsvDataNA <- lsvData[!(lsvData$timetree %in% values), ]
+
+sbvDataNA <- sbvData[!(sbvData$timetree %in% values), ]
+
+nosemaDataNA <- nosemaData[!(nosemaData$timetree %in% values), ]
+```
+
+##Specifying priors
+```{r}
+# specify the prior distribution of the overall effect size μ and the between-study heterogeneity τ
+priors <- c (prior (normal (0, 2), class = Intercept),
+             prior (cauchy (0, 1), class = sd))
+```
+
+##Initial models 
+```{r}
+model_simple <- brm(
+  dwv | trials (individualstested) ~ year + condition + apispresence + (1|gr(family, cov = A)) + (1|study) + (1|location),
+  data = BVMAprimarydataset, 
+  family = binomial("logit"), 
+  data2 = list(A = A),
+  cores = 4,
+  )
+
+model_species_dwv <- brm(
+  dwv | trials (individualstested) ~ year + condition + apispresence + (1|gr(timetree, cov = B)) + (1|study) + (1|location),
+  data = subBVMA, 
+  family = binomial("logit"), 
+  data2 = list(B = B),
+  cores = 4,
+  )
+
+model_species_bqcv <- brm(
+  bqcv | trials (individualstested) ~ year + condition + apispresence + (1|gr(timetree, cov = B)) + (1|study) + (1|location),
+  data = subBVMA, 
+  family = binomial("logit"), 
+  data2 = list(B = B),
+  cores = 4,
+  )
+
+model_species_bqcv <- brm(bqcv | trials(individualstested) ~ 1 + scale(year) +  condition + (1|study) + (1|location) + (1|gr(timetree, cov = B)), 
+data = subBVMA, 
+family = binomial(),
+data2 = list(B = B), 
+backend = "rstan",
+cores = 4,
+iter = 3000)
+
+model_species_abpv <- brm(abpv | trials(individualstested) ~ 1 + scale(year) +  condition + (1|study) + (1|location) + (1|gr(timetree, cov = B)), 
+data = subBVMA, 
+family = binomial(),
+data2 = list(B = B), 
+backend = "rstan",
+cores = 4,
+iter = 3000)
+```
+
+```{r}
+plot(model_species_dwv, N = 2, ask = FALSE)
+plot(model_species_bqcv, N = 2, ask = FALSE)
+plot(model_species_noapis, N = 2, ask = FALSE)
+plot(model_species_abpv, N = 2, ask = FALSE)
+summary(model_species)
+```
+
+##Stage two models (DWV)
+```{r}
+model_dwv_YC <- brm(
+  dwv|trials(individualstested) ~ 1 + year + condition + apisDWV  + (1|gr(timetree, cov = B)) + (1 +apisDWV|study) + (1|location)  + (1|obs), 
+  data = dwvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_dwv_YC)
+
+model_dwv <- brm(
+  dwv|trials(individualstested) ~ 1 + apisDWV  + (1|gr(timetree, cov = B)) + (1 +apisDWV|study) + (1|location)  + (1|obs),
+  data = dwvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_dwv)
+plot(conditional_effects(model_dwv), points = TRUE) 
+summary(model_dwv)
+
+loo(model_dwv, model_dwv_YC)
+```
+
+##BQCV
+```{r}
+model_bqcv_YC <- brm(
+  bqcv|trials(individualstested) ~ 1 + year + condition + apisBQCV  + (1|gr(timetree, cov = B)) + (1 +apisBQCV|study) + (1|location)  + (1|obs), 
+  data = bqcvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_bqcv_YC) ##Year and condition non-significant, running no YC model 
+
+model_bqcv <- brm(
+  bqcv|trials(individualstested) ~ 1 + apisBQCV  + (1|gr(timetree, cov = B)) + (1 +apisBQCV|study) + (1|location)  + (1|obs), 
+  data = bqcvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_bqcv)
+summary(model_bqcv)
+
+##removing phylo and apisprev and comparing model fit 
+model_bqcv_nophylo <- brm(
+  bqcv|trials(individualstested) ~ 1 + apisBQCV + (1 +apisBQCV|study) + (1|location)  + (1|obs), 
+  data = bqcvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd"))
+  )
+
+model_bqcv_noapis <- brm(
+  bqcv|trials(individualstested) ~ 1 + (1|gr(timetree, cov = B)) + (1|study) + (1|location)  + (1|obs), 
+  data = bqcvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+loo(model_bqcv, model_bqcv_noapis)
+```
+
+##posterior checks 
+```{r}
+pp_check(model_bqcv)
+```
+##MODEL WEIGHTS 
+```{r}
+model_weights(model_bqcv, model)
+```
+
+
+##abpv
+```{r}
+model_abpv_YC <- brm(
+  abpv|trials(individualstested) ~ 1 + year + condition + apisABPV  + (1|gr(timetree, cov = B)) + (1 +apisABPV|study) + (1|location)  + (1|obs), 
+  data = abpvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_abpv_YC) ##Year and condition non-significant, running no YC model 
+
+model_abpv <- brm(
+  abpv|trials(individualstested) ~ 1 + apisABPV  + (1|gr(timetree, cov = B)) + (1 +apisABPV|study) + (1|location)  + (1|obs), 
+  data = abpvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_abpv)
+summary(model_abpv)
+```
+
+##sbpv
+```{r}
+model_sbpv_YC <- brm(
+  sbpv|trials(individualstested) ~ 1 + year + condition + apisSBPV  + (1|gr(timetree, cov = B)) + (1 +apisSBPV|study) + (1|location)  + (1|obs), 
+  data = sbpvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+##1400 divergent transitions, may have to run for more iterations 
+plot(model_sbpv_YC) ##year and condition non-significant, running no YC model
+
+model_sbpv <- brm(
+  sbpv|trials(individualstested) ~ 1 + apisSBPV  + (1|gr(timetree, cov = B)) + (1 +apisSBPV|study) + (1|location)  + (1|obs), 
+  data = sbpvDataNA,
+  control = list(adapt_delta = .95, max_treedepth = 40),
+  family = binomial('logit'), 
+  cores = 4,
+  iter = 2000, ##too many divergent transitions 
+  warmup = 1000, 
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_sbpv)
+summary(model_sbpv)
+pp_check(model_sbpv)
+```
+
+##cbpv
+```{r}
+model_cbpv_YC <- brm(
+  cbpv|trials(individualstested) ~ 1 + year + condition + apisCBPV  + (1|gr(timetree, cov = B)) + (1 +apisCBPV|study) + (1|location)  + (1|obs), 
+  data = cbpvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+##Again, 797 divergent transitions is a bit high 
+plot(model_cbpv_YC) ##year and condition NS
+
+model_cbpv <- brm(
+  cbpv|trials(individualstested) ~ 1 + apisCBPV  + (1|gr(timetree, cov = B)) + (1 +apisCBPV|study) + (1|location)  + (1|obs), 
+  data = cbpvDataNA,
+  control = list(adapt_delta = .999, max_treedepth = 40),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_cbpv)
+plot(conditional_effects(model_cbpv), points = TRUE) 
+summary(model_cbpv)
+```
+
+##kbv
+```{r}
+model_kbv_YC <- brm(
+  kbv|trials(individualstested) ~ 1 + year + condition + apisKBV  + (1|gr(timetree, cov = B)) + (1 +apisKBV|study) + (1|location)  + (1|obs), 
+  data = kbvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_kbv_YC) ##Yep, year and condition NS
+
+model_kbv <- brm(
+  kbv|trials(individualstested) ~ 1 + apisKBV  + (1|gr(timetree, cov = B)) + (1 +apisKBV|study) + (1|location)  + (1|obs), 
+  data = kbvDataNA,
+  control = list(adapt_delta = .999, max_treedepth = 40),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_kbv)
+summary(model_kbv)
+```
+
+##iapv
+```{r}
+model_iapv_YC <- brm(
+  iapv|trials(individualstested) ~ 1 + year + condition + apisIAPV  + (1|gr(timetree, cov = B)) + (1 +apisIAPV|study) + (1|location)  + (1|obs), 
+  data = iapvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_iapv_YC) ##Year is very near significant (u-95% CI = 0.00), retaining YC model 
+summary(model_iapv_YC)
+
+model_iapv <- brm(
+  iapv|trials(individualstested) ~ 1 + apisIAPV  + (1|gr(timetree, cov = B)) + (1 +apisIAPV|study) + (1|location)  + (1|obs), 
+  data = iapvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_iapv)
+
+loo(model_iapv, model_iapv_YC)
+```
+
+##lsv
+```{r}
+model_lsv_YC <- brm(
+  lsv|trials(individualstested) ~ 1 + year + condition + apisLSV  + (1|gr(timetree, cov = B)) + (1 +apisLSV|study) + (1|location)  + (1|obs), 
+  data = lsvDataNA,
+  control = list(adapt_delta = .999, max_treedepth = 50),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_lsv_YC) ##Year seems to be near significant, but neither Y or C sig so using no YC model  
+summary(model_lsv_YC)
+
+model_lsv <- brm(
+  lsv|trials(individualstested) ~ 1 + apisLSV  + (1|gr(timetree, cov = B)) + (1 +apisLSV|study) + (1|location)  + (1|obs), 
+  data = lsvDataNA,
+  control = list(adapt_delta = .999, max_treedepth = 50),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_lsv)
+
+loo(model_lsv, model_lsv_YC)
+```
+
+##sbv
+```{r}
+model_sbv_YC <- brm(
+  sbv|trials(individualstested) ~ 1 + year + condition + apisSBV  + (1|gr(timetree, cov = B)) + (1 +apisSBV|study) + (1|location)  + (1|obs), 
+  data = sbvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_sbv_YC) ## Year and condition NS 
+
+model_sbv <- brm(
+  sbv|trials(individualstested) ~ 1 + apisSBV  + (1|gr(timetree, cov = B)) + (1 +apisSBV|study) + (1|location)  + (1|obs), 
+  data = sbvDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_sbv)
+summary(model_sbv)
+```
+
+##nosema 
+```{r}
+model_nosema_YC <- brm(
+  nosema|trials(individualstested) ~ 1 + year + condition + apisNOSEMA  + (1|gr(timetree, cov = B)) + (1 +apisNOSEMA|study) + (1|location)  + (1|obs), 
+  data = nosemaDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_nosema_YC) ## 740 divergent transitions 
+summary(model_nosema_YC)
+
+model_nosema <- brm(
+  nosema|trials(individualstested) ~ 1 + apisNOSEMA  + (1|gr(timetree, cov = B)) + (1 +apisNOSEMA|study) + (1|location)  + (1|obs), 
+  data = nosemaDataNA,
+  control = list(adapt_delta = .9, max_treedepth = 20),
+  family = binomial('logit'), 
+  cores = 4,
+  prior = c(
+  prior(normal(0,10), "b"),
+  prior(normal(0,50), "Intercept"),
+  prior(student_t(3,0,20), "sd")),
+  data2 = list(B = B),
+  )
+
+plot(model_nosema)
+summary(model_nosema)
+
+
+loo(model_nosema, model_nosema_YC)
+```
+
+##Hypothesis test for phylogenetic signal 
+```{r}
+hyp <- paste(
+  "sd_timetree__Intercept^2 /",
+  "(sd_timetree__Intercept^2 + (3.141593^2)/(3)) = 0")
+
+##Hypothesis test for significant effect of over-dispersion 
+OBShyp <- paste(
+  "sd_obs__Intercept^2 /",
+  "(sd_obs__Intercept^2 + 3.141593^2)(/3)) = 0")
+
+##dwv
+(hyp1 <- hypothesis(model_dwv, hyp, alpha = 0.05, class = NULL))
+plot(hyp1)
+(hypobs1 <- hypothesis(model_dwv, OBShyp, alpha = 0.05, class = NULL))
+plot(hypobs1)
+
+##bqcv
+(hyp2 <- hypothesis(model_bqcv, hyp, alpha = 0.05, class = NULL))
+plot(hyp2)
+
+##abpv
+(hyp3 <- hypothesis(model_abpv, hyp, alpha = 0.05, class = NULL))
+plot(hyp3)
+
+##sbpv
+(hyp4 <- hypothesis(model_sbpv, hyp, alpha = 0.05, class = NULL))
+plot(hyp4)
+
+##cbpv
+(hyp5 <- hypothesis(model_cbpv, hyp, alpha = 0.05, class = NULL))
+plot(hyp5)
+
+##kbv
+(hyp6 <- hypothesis(model_kbv, hyp, alpha = 0.05, class = NULL))
+plot(hyp6)
+
+##iapv
+(hyp7 <- hypothesis(model_iapv, hyp, , alpha = 0.05, class = NULL))
+plot(hyp7)
+
+##lsv
+(hyp8 <- hypothesis(model_lsvs, hyp, alpha = 0.05, class = NULL))
+plot(hyp8)
+
+##sbv
+(hyp9 <- hypothesis(model_sbv, hyp, , alpha = 0.05, class = NULL))
+plot(hyp9)
+
+##nosema 
+(hyp10 <- hypothesis(model_nosema, hyp, , alpha = 0.05, class = NULL))
+plot(hyp10)
+```
+
+##means across groups 
+```{r}
+##Mean of species 
+get_variables(model_sbpv)
+model_sbpv %>% spread_draws(r_timetree[condition,term])  %>% median_qi(mean =  r_timetree, .width = c(.95, .66)) %>% ggplot(aes(y = condition, x = mean, xmin = .lower, xmax = .upper)) +
+  geom_pointinterval() 
+
+##residual variance 
+model_sbpv %>% spread_draws(r_obs[condition])  %>% median_qi(mean =  r_obs, .width = c(.95, .66)) %>% 
+ggplot(aes(y = condition, x = mean, xmin = .lower, xmax = .upper)) +
+  geom_pointinterval() + xlim(-10, 10)
+
+
+##Mean of locations
+model_dwv_YC %>% spread_draws(r_location[condition,term]) %>%  
+median_qi(mean =  r_location, .width = c(.95, .66)) %>% 
+ggplot(aes(y = condition, x = mean, xmin = .lower, xmax = .upper)) +
+  geom_pointinterval() 
+```
+
+##Extracting phylogenetic signal into a df 
+```{r}
+phyloDWV <- hyp1$hypothesis$Estimate 
+phyloBQCV <- hyp2$hypothesis$Estimate 
+phyloABPV <- hyp3$hypothesis$Estimate 
+phyloSBPV <- hyp4$hypothesis$Estimate 
+phyloCBPV <- hyp5$hypothesis$Estimate 
+phyloKBV <- hyp6$hypothesis$Estimate 
+phyloIAPV <- hyp7$hypothesis$Estimate 
+phyloLSV <- hyp8$hypothesis$Estimate 
+phyloSBV <- hyp9$hypothesis$Estimate
+phyloNOSEMA <- hyp10$hypothesis$Estimate 
+
+LCiDWV <- hyp1$hypothesis$CI.Lower
+LCiBQCV <- hyp2$hypothesis$CI.Lower
+LCiABPV <- hyp3$hypothesis$CI.Lower
+LCiSBPV <- hyp4$hypothesis$CI.Lower
+LCiCBPV <- hyp5$hypothesis$CI.Lower
+LCiKBV <- hyp6$hypothesis$CI.Lower
+LCiIAPV <- hyp7$hypothesis$CI.Lower
+LCiLSV <- hyp8$hypothesis$CI.Lower
+LCiSBV <- hyp9$hypothesis$CI.Lower
+LCiNOSEMA <- hyp10$hypothesis$CI.Lower
+
+UCiDWV <- hyp1$hypothesis$CI.Upper
+UCiBQCV <- hyp2$hypothesis$CI.Upper
+UCiABPV <- hyp3$hypothesis$CI.Upper
+UCiSBPV <- hyp4$hypothesis$CI.Upper
+UCiCBPV <- hyp5$hypothesis$CI.Upper
+UCiKBV <- hyp6$hypothesis$CI.Upper
+UCiIAPV <- hyp7$hypothesis$CI.Upper
+UCiLSV <- hyp8$hypothesis$CI.Upper
+UCiSBV <- hyp9$hypothesis$CI.Upper
+UCiNOSEMA <- hyp10$hypothesis$CI.Upper
+
+virus <- c("bqcv", "dwv", "abpv", "sbpv", "cbpv", "kbv", "iapv", "lsv", "sbv", "nosema")
+signal <- c(phyloBQCV, phyloDWV,phyloABPV, phyloSBPV, phyloCBPV, phyloKBV, phyloIAPV, phyloLSV, phyloSBV, phyloNOSEMA)
+LCi <- c(LCiBQCV, LCiDWV, LCiABPV, LCiSBPV, LCiCBPV, LCiKBV, LCiIAPV, LCiLSV, LCiSBV, LCiNOSEMA)
+UCi <- c(UCiBQCV, UCiDWV, UCiABPV, UCiSBPV, UCiCBPV, UCiKBV, UCiIAPV, UCiLSV, UCiSBV, UCiNOSEMA)
+
+phyloSIGNAL <- data.frame(virus, signal, LCi, UCi)
+```
+
+##Plotting phylosignal 
+```{r}
+ggplot(phyloSIGNAL, aes(virus, signal)) + geom_point() + 
+  geom_errorbar(aes(y = signal, ymin = LCi, ymax = UCi), size = 1, width = 0.5) + 
+  scale_y_sqrt()
+```
+
+
+##Getting averages for timetree
+```{r}
+sbpvgroup <- model_sbpv %>% spread_draws(r_timetree[condition,term]) %>% group_by(condition) %>% reframe(r_timetree = mean(r_timetree), var = 
+sqrt(r_timetree*(1-r_timetree)))
+
+sbpvgroup1 <- model_sbpv %>% spread_draws(r_timetree[condition,term])  %>% median_qi(mean =  r_timetree, .width = c(.95, .66)) 
+
+sbpvAPIS <- model_sbpv %>% spread_draws(b_apisSBPV[condition])  %>% median_qi(mean =  b_apisSBPV, .width = c(.95, .66)) 
+```
+
+
+##Hmm
+```{r}
+##goodness (ggtree) 
+g <- ggtree(bqcvtree) 
+ g
+geom_tiplab(align = TRUE) ##adds tip labels to tree
+ 
+p3 <- ggplot(bqcvDataNA, aes(x= bqcv/individualstested, y = family)) + geom_boxplot(aes(fill=family)) + 
+  theme(legend.position = 'none')
+
+p3 %>% insert_left(g)
+ 
+##sbpv timetree
+tree1 <- ggtree(speciestree) + geom_tiplab(align = TRUE)
+tree1
+p3 <- ggplot(sbpvgroup1, aes(x= mean, y = condition, xmin = .lower, xmax = .upper)) + geom_boxplot(aes(fill=condition)) + 
+  theme(legend.position = 'none')
+
+p3 %>% insert_left(tree1)
+ 
+```
+##^^it would be interesting to group these species together by type of bee or insect 
+maybe use social status as a group, as per https://www.sciencedirect.com/science/article/pii/S0065352718300113
+
